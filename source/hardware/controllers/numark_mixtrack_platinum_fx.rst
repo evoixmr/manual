@@ -1,7 +1,8 @@
 .. Credit to PopHippy for creating the original PDF file.
 
 Numark Mixtrack Platinum FX
-========================
+
+==============================
 
 -  `Manufacturer’s product page <https://www.numark.com/product/mixtrack-platinum-fx>`__
 -  `Forum thread <https://mixxx.discourse.group/t/numark-mixtrack-platinum-fx-mapping/19985/215>`__
@@ -48,9 +49,11 @@ Index
    | 7.Advanced User Section
    | 8.Notes
 
----------------
+-------------------------------------
+
    Numark Mixtrack Platinum FX
----------------
+
+-------------------------------------
 
    | Overview
    | The pads are for controlling cue’s, loops, and The Numark Mixtrack
@@ -536,8 +539,9 @@ Numark Mixtrack Platinum FX (Controls Condensed)
 |    Normal   |    Hot Cue  |    Auto     | Fader Cuts  | Sample      |
 |     |       |             |             |             |             |
 |    | • (LED |    1-8      |    Loop     | Transport   | 1-8         |
-|      On)    |             |             |             |             |
 |             |             |             | Roll        |             |
+|      On)    |             |             |             |             |
+|             |             |             |             |             |
 +-------------+-------------+-------------+-------------+-------------+
 | Shift       |    Hot Cue  |    Roll     |    Fader    |    Sample   |
 |     |       |             |             |             |             |
@@ -805,7 +809,8 @@ Fader Cuts Mode & Layers
 |                                   |    is only accessible by setting  |
 |                                   |    a code variable                |
 |                                   |    M                              |
-|                                   |MixtrackPlatinumFX.tapChangesTempo |
+|                                   | MixtrackPlatinumFX.tapChangesTempo|
+|                                   |                                   |
 |                                   |                                   |
 |                                   |    to false, recommended only for |
 |                                   |    advanced users                 |
