@@ -536,10 +536,10 @@ Numark Mixtrack Platinum FX (Controls Condensed)
 |    Mode     |    Cue      |    Auto     |    Fader    |    Samples  |
 |             |             |    Loop     |    Cuts     |             |
 +=============+=============+=============+=============+=============+
-|    Normal   |    Hot Cue  |    Auto     | Fader Cuts  | Sample      |
+| Normal      |    Hot Cue  |    Auto     | Fader Cuts  | Sample      |
 |     |       |             |             |             |             |
-|    | • (LED |    1-8      |    Loop     | Transport   | 1-8         |
-|      On     |             |             | Roll        |             |
+| | • (LED On)|    1-8      |    Loop     | Transport   | 1-8         |
+|             |             |             |             |             |
 | Shift+Mode  |             |             |             |             |
 +-------------+-------------+-------------+-------------+-------------+
 | Shift       |    Hot Cue  |    Roll     |    Fader    |    Sample   |
