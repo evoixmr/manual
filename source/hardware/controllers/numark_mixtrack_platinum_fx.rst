@@ -539,9 +539,7 @@ Numark Mixtrack Platinum FX (Controls Condensed)
 |    Normal   |    Hot Cue  |    Auto     | Fader Cuts  | Sample      |
 |     |       |             |             |             |             |
 |    | • (LED |    1-8      |    Loop     | Transport   | 1-8         |
-|             |             |             | Roll        |             |
-|      On)    |             |             |             |             |
-|             |             |             |             |             |
+|      On     |             |             | Roll        |             |
 +-------------+-------------+-------------+-------------+-------------+
 | Shift       |    Hot Cue  |    Roll     |    Fader    |    Sample   |
 |     |       |             |             |             |             |
@@ -809,6 +807,7 @@ Fader Cuts Mode & Layers
 |                                   |    is only accessible by setting  |
 |                                   |    a code variable                |
 |                                   |    M                              |
+|                                   |                                   |
 |                                   | MixtrackPlatinumFX.tapChangesTempo|
 |                                   |                                   |
 |                                   |                                   |
