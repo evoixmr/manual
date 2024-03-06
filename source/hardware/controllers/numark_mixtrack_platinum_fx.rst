@@ -533,18 +533,17 @@ Numark Mixtrack Platinum FX (Controls Condensed)
 |    Mode     |    Cue      |    Auto     |    Fader    |    Samples  |
 |             |             |    Loop     |    Cuts     |             |
 +=============+=============+=============+=============+=============+
-|    Normal   |    Hot Cue  |    Auto     |  Fader Cuts |    Sample   |
+|    Normal   |    Hot Cue  |    Auto     | Fader Cuts  | Sample      |
 |     |       |             |             |             |             |
-|    | • (LED |    1-8      |    Loop     |  Transport  |     1-8     |
+|    | • (LED |    1-8      |    Loop     | Transport   | 1-8         |
 |      On)    |             |             |             |             |
+|             |             |             | Roll        |             |
 +-------------+-------------+-------------+-------------+-------------+
-|    Shift    |    Hot Cue  |    Roll     |    Fader    |    Sample   |
+| Shift       |    Hot Cue  |    Roll     |    Fader    |    Sample   |
 |     |       |             |             |             |             |
-|    | Shift  |    9-16     |    Loop     |    Cuts 8   |    9-16     |
-|      +Mode  |             |             |             |             |
-|    | Button |             |             |             |             |
+| Shift+Mode  |    9-16     |    Loop     |    Cuts 8   |    9-16     |
 |    | • (LED |             |             |             |             |
-|      Slow   |             |             |             |             |
+|      SLow   |             |             |             |             |
 |      Blink) |             |             |             |             |
 +-------------+-------------+-------------+-------------+-------------+
 | Alternative |    Beat     |    Cue Loop |    | Fader  |    Pitch    |
@@ -807,6 +806,7 @@ Fader Cuts Mode & Layers
 |                                   |    a code variable                |
 |                                   |    M                              |
 |                                   |MixtrackPlatinumFX.tapChangesTempo |
+|                                   |                                   |
 |                                   |    to false, recommended only for |
 |                                   |    advanced users                 |
 +===================================+===================================+
