@@ -334,7 +334,7 @@ Mixtrack Platinum FX is a 24-bit 4-deck digital DJ controller with a dedicated s
 |                       | | 8. **Time Remaining:**                       |
 |                       |   Displays the time elapsed or time remaining  |
 |                       |   for the current track. (Time elapsed only    |
-|                       |   implemented in currrent mapping).            |
+|                       |   implemented in current mapping).             |
 |                       |                                                |
 |                       | | 9. **Time Bars:**                            |
 |                       |   Provides visual reference to time remaining  |
@@ -682,7 +682,7 @@ Mixtrack Platinum FX is a 24-bit 4-deck digital DJ controller with a dedicated s
 |                       |      Flare            |                       |
 |                       |    |                  |                       |
 |                       |    | **(P5-8) Factory |                       |
-|                       |      Functions**      |                       | 
+|                       |      Functions**      |                       |
 |                       |    | P5 – Stutter /   |                       |
 |                       |      Repeat           |                       |
 |                       |    | Start P6 –       |                       |
@@ -799,12 +799,11 @@ Mixtrack Platinum FX is a 24-bit 4-deck digital DJ controller with a dedicated s
 |
 | 5. If they both match then use the one with the lowest deck number
 |
-| To help know which it is using when tapping BOTH up and down arrows on the deck are lit. As the first tap doesn't make any changes (you 
+| To help know which it is using when tapping BOTH up and down arrows on the deck are lit. As the first tap doesn't make any changes (you
  can't work out a bpm from one tap) it is safe to tap and hold the button and check which deck the arrows are showing on.
 |
 | MixtrackPlatinumFX.tapChangesTempo to false, recommended only for advanced users. The pads are for controlling cues, loops, and
  samples via various modes & layers. To select a mode, select a Pad Mode button (Cue, Auto Loop, Fader Cuts & Sample) to assign that
  functionality to the 8 pads. An LED under the pad section indicates the currently selected
 
-
-.. Audthots - evoixmr, palaran and bit thaks to PopHippy for creating the original PDF file.
+.. Authors - evoixmr, palaran and big thanks to PopHippy for creating the original PDF file.
