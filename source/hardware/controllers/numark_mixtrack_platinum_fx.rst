@@ -217,7 +217,7 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
    Each pad assigns a Hot Cue Point, or returns the track to that Hot Cue Point. When a pad is unlit, you can assign a Hot Cue Point by pressing it at the desired point in your track.", "**Remove Cue**
 
    Hold and selecting pad, removes that cue point."
-   ":hwlabel:`SHIFT`", "**Cue 9-16**
+   ":hwlabel:`SHIFT` "**Cue 9-16**
 
    Same as Normal mode", "**Remove Cue**
 
@@ -270,8 +270,7 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
    :header: "Mode", "Pad Function", "Shift (as Pad Action)"
    :widths: 25 70 50
 
-   "Normal", "**Fader Cuts (Pad 1-4)**
-
+   "Normal",   "**Fader Cuts (Pad 1-4)**
 
    The pads will mute and unmute the deck’s audio signal in a way that emulates crossfader movements toward that deck.
 
