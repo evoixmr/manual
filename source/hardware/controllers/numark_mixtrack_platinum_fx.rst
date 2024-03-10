@@ -293,7 +293,7 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
 
    P7 – Rewind
 
-   P8 – Fast Forward", "*Note: Shift + Pad Mode buttons, puts decks into an alternate pad layer. In that layer shift can be further used as an pad action for the individual pads."
+   P8 – Fast Forward", "*Note: Shift + Pad Mode* buttons, puts decks into an alternate pad layer. In that layer shift can be further used as an pad action for the individual pads."
    ":hwlabel:`SHIFT`", "(P1-4) Standard Fader Cuts
 
    (P5-8) Extended Fader Cuts", ""
@@ -324,7 +324,7 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
    "Normal", "(P1-8) Play Sample", "**Stop Playback/Load Sample**
 
    Hold and selecting pad, Stop Playback or Load Sample if the slot is empty."
-   ":hwlabel:`SHIFT`", "(P9-16) Play Sample", "S**top Playback/Load Sample**
+   ":hwlabel:`SHIFT`", "(P9-16) Play Sample", "**Stop Playback/Load Sample**
 
    Hold and selecting pad, Stop Playback or Load Sample if the slot is empty."
    ":hwlabel:`Hold` or :hwlabel:`Double Click`
