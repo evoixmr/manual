@@ -83,44 +83,16 @@ The mapping requires the following Soft/Firmware for all enabled features to wor
    "18", ":hwlabel:`SHIFT` Keylock", "Hold Shift and this button to adjust Keylock."
    "19", "Beats Multiplier", "Increases and decreases the rate of the effects to the beat. When using a time-based effect, this knob adjusts its time division."
    "19", ":hwlabel:`SHIFT` FX Macros", "Selects and controls FX Macros parameters."
+   "20", "FX Wet/Dry Knob", "Turn this knob to adjust the wet/dry mix of the effects."
+   "21", "Software FX", "Press one of these buttons to select a software effect.
 
-   "31", "Cue (Pad)", "With this Pad mode, each pad assigns a Hot Cue Point, or returns the track to that Hot Cue Point. When a pad is unlit, you can assign a Hot Cue Point by pressing it at the desired point in your track.
+   • HPF (High pass filter)
+   • LPF (Low pass filter)
+   • Flanger
+   • Echo
+   • Reverb
+   • Phaser"
 
-   *See Performance Pad Modes"
-   "31", ":hwlabel:`SHIFT` Secondary Hot Cue", "Hot Cue 9-16"
-   "31", ":hwlabel:`HOLD` or :hwlabel:`2X PRESS`
-
-   Beat Jump", "Beat Jump"
-   "32", "Auto Loop (Pad)", "With this Pad mode, each pad triggers an auto loop of a different length.
-
-   *See Performance Pad Modes"
-   "32", ":hwlabel:`SHIFT` Beat Jump", "Roll Loop"
-   "32", ":hwlabel:`HOLD` or :hwlabel:`2X PRESS`
-
-   Beat Jump", "Cue Loop"
-   "33", "Fader Cuts (Pad)", "With this Pad mode, the top 4 performance pads are used to perform transform effects for cuts on scratching.
-
-   *See Performance Pad Modes"
-   "33", ":hwlabel:`SHIFT` Roll", "Each pad triggers a roll of a different length"
-   "33", ":hwlabel:`HOLD` or :hwlabel:`2X PRESS`
-
-   Fader Cuts 3rd set", "Fader Cuts Roll Rev, Key Tempo"
-   "34", "Sampler 1-8 (Pad)", "With this Pad mode, each pad triggers a sample in the software.
-
-   *See Performance Pad Modes"
-   "34", ":hwlabel:`SHIFT` Sampler 9-16", "Selects layer 2 of samples - Performance pads then trigger samples 9-16."
-   "34", ":hwlabel:`HOLD` or :hwlabel:`2X PRESS`
-
-   Pitch Play", "Pitch Play"
-   "35", "Performance Pads", "The pads are used to trigger loop points or samples depending on the Pad mode setting.
-
-   *See Performance Pad Modes"
-   "36", "Loop On/Off", "Press to activate auto loop on/off."
-   "36", ":hwlabel:`SHIFT` Re-Loop", "Triggers a re-loop"
-   "37", "Loop 1/2", "Press this button when a loop is active to decrease the loop size by half."
-   "37", ":hwlabel:`SHIFT` Loop In (Manual Loop)", "Set the Loop In point for a manual loop."
-   "38", "Loop x2", "Press this button when a loop is active to double the loop size."
-   "38", ":hwlabel:`SHIFT` Loop Out (Manual Loop)", "Set the Loop Out point for a manual loop."
 ..
 
 **Performance Pad Modes**
