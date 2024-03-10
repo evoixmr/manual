@@ -236,7 +236,6 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
 
 ..
 
-
 **Auto Loop Mode & Layers**
 
 .. csv-table::
