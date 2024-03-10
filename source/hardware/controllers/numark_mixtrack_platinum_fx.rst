@@ -16,7 +16,7 @@ The mapping requires the following Soft/Firmware for all enabled features to wor
 
 --------
 
-.. figure:: ../../_static/controllers/numark_mixtrack_platinum_fx_toprow.png
+.. figure:: ../../_static/controllers/numark_mixtrack_platinum_fx_toprow.svg
    :align: center
    :width: 100%
    :figwidth: 100%
@@ -40,7 +40,7 @@ The mapping requires the following Soft/Firmware for all enabled features to wor
 
 **Control Mapping**
 
-.. figure:: ../../_static/controllers/numark_mixtrack_platinum_fx.png
+.. figure:: ../../_static/controllers/numark_mixtrack_platinum_fx.svg
    :align: center
    :width: 100%
    :figwidth: 100%
