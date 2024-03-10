@@ -54,18 +54,12 @@ The mapping requires the following Soft/Firmware for all enabled features to wor
    :header: "#", "Name", "Function"
    :widths: 5 25 70
 
+   "1", "Browse Knob (Rotate)", "Rotate this knob to cycle through folders and tracks."
+   "1", "Browse Knob (Press)", "Cycle between the Crates and Library."
+   "1", ":hwlabel:`SHIFT` Browse Knob (Rotate)", "Speed Scrolling"
+   "1", ":hwlabel:`LEFT SHIFT` Browse Knob (Press)", "Open/Close Directory"
+   "1", ":hwlabel:`RIGHT SHIFT` Browse Knob (Press)", "Preview Play/Stop Track"
 
-   "2", "Master Gain", "Adjusts the master volume in the software."
-   "3", "Mic Gain", "Adjusts the level for the microphone input."
-   "4", "Cue Mix", "Adjusts the audio output to the headphones, mixing between the cue output and the master mix output."
-   "5", "Cue Gain", "Adjusts the volume for headphone cueing."
-   "6", "Master Output LEDs", "Displays the audio level going to the Master Output."
-   "7", "Load", "Press one of these buttons while a track is selected to assign it to Deck 1 or 2, respectively."
-   "7", ":hwlabel:`2X Press` Track Cloning", "Quickly double press a Load button to assign the same track on both decks."
-   "7", ":hwlabel:`SHIFT` Eject", "Removes the track from related deck."
-   "8", "Level", "Adjusts the pre-fader, pre-EQ audio level of the corresponding channel."
-   "9", "High EQ", "Controls the treble frequencies for the individual channels "
-   "10", "Mid EQ", "Controls the mid-range frequencies for the individual channels."
    "11", "Low EQ", "Controls the bass frequencies for the individual channels."
    "12", "Filter", "Adjusts the amount of the filter effect. Turning the knob left and right will produce a lowpass filter and high-pass filter, respectively."
    "13", "Cue/PFL", "Sends pre-fader audio to the cue channel forheadphone monitoring. "
