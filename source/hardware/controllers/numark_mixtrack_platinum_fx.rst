@@ -64,9 +64,8 @@ The mapping requires the following Soft/Firmware for all enabled features to wor
    "4", "Cue Mix", "Adjusts the audio output to the headphones, mixing between the cue output and the master mix output."
    "5", "Cue Gain", "Adjusts the volume for headphone cueing."
    "6", "Master Output LEDs", "Displays the audio level going to the Master Output."
-   "7", "Load", "Press one of these buttons while a track is selected to assign it to Deck 1 or 2, respectively.
-
-   Quickly double press a Load button to assign the same track on both decks."
+   "7", "Load", "Press one of these buttons while a track is selected to assign it to Deck 1 or 2, respectively."
+   "7", ":hwlabel:`2X Press` Track Cloning", "Quickly double press a Load button to assign the same track on both decks."
    "7", ":hwlabel:`SHIFT` Eject", "Removes the track from related deck."
    "8", "Level", "Adjusts the pre-fader, pre-EQ audio level of the corresponding channel."
    "9", "High EQ", "Controls the treble frequencies for the individual channels "
@@ -319,21 +318,9 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
 
 ..
 
-**Advanced User Section**
-
-For advanced users, alternative functions exist in the code, by accessing and setting a code variable.
-
 **TAPPING**
 
-Added logic for the tap button, Two modes exist:
-
- • The default is to use the MIXXX common bpm.tapButton which sets the effective bpm to the one tapped using the tempo adjust. Shift tap resets to 0 tempo change.
-
- • The alternative changes the actual file bpm. The problem is the reset doesn't work, the best I can do is change the effective bpm to the original, but then the file is still "broken" next time it is loaded. The alternative mode is only accessible by setting a code variable MixtrackPlatinumFX.tapChangesTempo to false, recommended only for advanced users.
-
-..
-
-For the default, the MIXXX common function takes taps and averages them. If you don't tap for 2 seconds the average resets and you start again. To prevent accidental double taps or misses if a tap is 40% shorter or 80% longer it will be ignored. I found while testing sometimes if I got the first two taps wrong the rest would be rejected by the filter, but it wasn't obvious this was happening. By default the button is dimly lit (like most others). When you tap the button if it accepts the tap it will go bright, if it rejects it from the filter it will show off. If this happens stop tapping wait 2 seconds for the filter to clear and try again. Fixed this kicking in after 8 taps.
+Logic for the tap button:
 
 For tapping we have to "guess" which deck is intended, so we use some pointers.
 
@@ -349,6 +336,6 @@ For tapping we have to "guess" which deck is intended, so we use some pointers.
 
 To help know which it is using when tapping BOTH up and down arrows on the deck are lit. As the first tap doesn't make any changes (you can't work out a bpm from one tap) it is safe to tap and hold the button and check which deck the arrows are showing on.
 
-MixtrackPlatinumFX.tapChangesTempo to false, recommended only for advanced users. The pads are for controlling cues, loops, and samples via various modes & layers. To select a mode, select a Pad Mode button (Cue, Auto Loop, Fader Cuts & Sample) to assign that functionality to the 8 pads. An LED under the pad section indicates the currently selected
+The pads are for controlling cues, loops, and samples via various modes & layers. To select a mode, select a Pad Mode button (Cue, Auto Loop, Fader Cuts & Sample) to assign that functionality to the 8 pads. An LED under the pad section indicates the currently selected
 
 .. Credit to PopHippy for creating the original PDF file.
