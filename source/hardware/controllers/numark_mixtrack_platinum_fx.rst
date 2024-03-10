@@ -56,7 +56,7 @@ The mapping requires the following Soft/Firmware for all enabled features to wor
 
    "1", "Browse Knob (Rotate)", "Rotate this knob to cycle through folders and tracks."
    "1", "Browse Knob (Press)", "Cycle between the Crates and Library."
-   "1", ":hwlabel:`SHIFT` Browse Knob (Rotate)", "Speed Scrolling"
+
    "1", ":hwlabel:`LEFT SHIFT` Browse Knob (Press)", "Open/Close Directory"
    "1", ":hwlabel:`RIGHT SHIFT` Browse Knob (Press)", "Preview Play/Stop Track"
    "2", "Master Gain", "Adjusts the master volume in the software."
