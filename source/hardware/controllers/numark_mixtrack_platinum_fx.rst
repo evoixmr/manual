@@ -29,24 +29,13 @@ The mapping requires the following Soft/Firmware for all enabled features to wor
 
 **Overview**
 
-|  The pads are for controlling cue’s, loops, and The Numark Mixtrack
-     Platinum FX is a 2 channel (with 4 channel layering) entry level DJ
-     controller with an integrated audio interface. The stand out
-     feature of the Mixtrack Platinum FX is the LCD displays integrated
-     into the jog wheels. It is a USB Audio and MIDI Class compliant
-     device and works with Linux, macOS, and Windows.
+|  The pads are for controlling cue’s, loops, and The Numark Mixtrack Platinum FX is a 2 channel (with 4 channel layering) entry level DJ controller with an integrated audio interface. The stand out feature of the Mixtrack Platinum FX is the LCD displays integrated into the jog wheels. It is a USB Audio and MIDI Class compliant device and works with Linux, macOS, and Windows.
 |
 | **Audio Interface**
 |
-| Configure Mixxxs’ Master output for channels 1-2 and Headphones
-   output for Channels 3-4.
+| Configure Mixxxs’ Master output for channels 1-2 and Headphones output for Channels 3-4.
 |
-| The microphone input on this controller is not available to the
-   computer through the controller’s audio interface. It is mixed with
-   the master output in hardware, so this controller’s audio interface
-   is not suitable for broadcasting or recording the inputs. If you want
-   to use the controller for broadcasting or recording, a separate audio interface with a
-   microphone input is suggested.
+| The microphone input on this controller is not available to the computer through the controller’s audio interface. It is mixed with the master output in hardware, so this controller’s audio interface is not suitable for broadcasting or recording the inputs. If you want to use the controller for broadcasting or recording, a separate audio interface with a microphone input is suggested.
 |
 
 **Control Mapping**
@@ -59,7 +48,7 @@ The mapping requires the following Soft/Firmware for all enabled features to wor
    :figclass: pretty-figures
 
 
-**Numark Mixtrack Platinum FX (Controls Condensed)** 
+**Numark Mixtrack Platinum FX (Controls Condensed)**
 
 .. csv-table::
    :header: "#", "Name", "Function"
@@ -75,7 +64,7 @@ The mapping requires the following Soft/Firmware for all enabled features to wor
    "4", "Cue Mix", "Adjusts the audio output to the headphones, mixing between the cue output and the master mix output."
    "5", "Cue Gain", "Adjusts the volume for headphone cueing."
    "6", "Master Output LEDs", "Displays the audio level going to the Master Output."
-   "7", "Load", "Press one of these buttons while a track is selected to assign it to Deck 1 or 2, respectively. 
+   "7", "Load", "Press one of these buttons while a track is selected to assign it to Deck 1 or 2, respectively.
 
    Quickly double press a Load button to assign the same track on both decks."
    "7", ":hwlabel:`SHIFT` Eject", "Removes the track from related deck."
@@ -96,13 +85,13 @@ The mapping requires the following Soft/Firmware for all enabled features to wor
    "19", "Beats Multiplier", "Increases and decreases the rate of the effects to the beat. When using a time-based effect, this knob adjusts its time division."
    "19", ":hwlabel:`SHIFT` FX Macros", "Selects and controls FX Macros parameters."
    "20", "FX Wet/Dry Knob", "Turn this knob to adjust the wet/dry mix of the effects."
-   "21", "Software FX", "Press one of these buttons to select a software effect. 
+   "21", "Software FX", "Press one of these buttons to select a software effect.
 
-   • HPF (High pass filter) 
-   • LPF (Low pass filter) 
-   • Flanger 
-   • Echo 
-   • Reverb 
+   • HPF (High pass filter)
+   • LPF (Low pass filter)
+   • Flanger
+   • Echo
+   • Reverb
    • Phaser"
    "21", ":hwlabel:`SHIFT` Multiple FX (at once)", "Hold shift and select/unselect multiple FX buttons to be active at once."
    "22", "FX Toggle On / Off:", "Push up on the toggle switch to latch (lock) the FX in the on position. Push down on the toggle switch to turn the FX on momentarily. When the toggle switch is in the middle position, the FX will be off."
@@ -118,7 +107,7 @@ The mapping requires the following Soft/Firmware for all enabled features to wor
    5. Pitch Range: Shows the current pitch range.
    6. Pitch: Shows current pitch of the track.
    7. Pitch Adjust: Indicates the direction to move Pitch Fader to match the current track’s BPM with the track on the opposite deck.
-   8. Time Remaining: Displays the time elapsed or time remaining for the current track. (Time elapsed only implemented in currrent mapping).
+   8. Time Remaining: Displays the time elapsed or time remaining for the current track. (Time elapsed only implemented in current mapping).
    9. Time Bars: Provides visual reference to time remaining on the selected song. When the song is almost over these segments will flash to give a warning."
    "26", "Scratch", "Press this button to turn on the scratch feature for the jog wheel. Hold Shift and press this button to select which Layer in the software is controlled by that hardware Deck. Deck 1 can control Layer 1 or 3; Deck 2 can control Layer 2 or 4."
    "26", ":hwlabel:`SHIFT` Deck Select", "Switch between decks 1 & 3 or 2 & 4 for 4 deck mixing"
@@ -160,13 +149,9 @@ The mapping requires the following Soft/Firmware for all enabled features to wor
 
 **Performance Pad Modes**
 
-The pads are for controlling cue’s, loops, and samples via various
-modes. To select a mode, select a Pad Mode button (Cue, Auto Loop,
-Fader Cuts & Sample) to assign that functionality to the 8 pads. An
-LED under the pad, indicates the currently selected mode.
+The pads are for controlling cue’s, loops, and samples via various modes. To select a mode, select a Pad Mode button (Cue, Auto Loop, Fader Cuts & Sample) to assign that functionality to the 8 pads. An LED under the pad, indicates the currently selected mode.
 
-Further to the NORMAL Pad Mode, 2 additional layers of functionality,
-SHIFT & ALTERNATE is also provided, as shown in the matrix below.
+Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & ALTERNATE is also provided, as shown in the matrix below.
 
 .. csv-table::
    :header: "Mode", "Cue", "Auto Loop", "Fader Cuts", "Samples"
@@ -189,8 +174,7 @@ SHIFT & ALTERNATE is also provided, as shown in the matrix below.
    Roll Rev, Key Tempo", "Pitch Play"
 ..
 
-**NOTE:** Within these modes initiated by SHIFT, the SHIFT button can be
-further used as an action or function for the individual pads.
+**NOTE:** Within these modes initiated by SHIFT, the SHIFT button can be further used as an action or function for the individual pads.
 
 **Pad Loop Lengths**
 
@@ -211,12 +195,12 @@ further used as an action or function for the individual pads.
 
    "Normal", "**Cue Pad 1-8**
 
-   Each pad assigns a Hot Cue Point, or returns the track to that Hot Cue Point. When a pad is unlit, you can assign a Hot Cue Point by pressing it at the desired point in your track.", "**Remove Cue** 
+   Each pad assigns a Hot Cue Point, or returns the track to that Hot Cue Point. When a pad is unlit, you can assign a Hot Cue Point by pressing it at the desired point in your track.", "**Remove Cue**
 
    Hold and selecting pad, removes that cue point."
    "Shift", "**Cue 9-16**
 
-   Same as Normal mode", "**Remove Cue** 
+   Same as Normal mode", "**Remove Cue**
 
    Hold and selecting pad, removes that cue point."
    "Alternative", "**Beat Jump**
@@ -240,12 +224,12 @@ further used as an action or function for the individual pads.
 
    "Normal", "**Auto Loop8**
 
-   Activates a loop section of pre-determined pad beat lengths, which loops automatically.", "**Roll Loop (Hold shift)** 
+   Activates a loop section of pre-determined pad beat lengths, which loops automatically.", "**Roll Loop (Hold shift)**
 
    Hold and selecting pad, performs a standard Auto Loop, but when the loop is turned off the playback position is returned to the position where it would be, if it had not entered the loop."
    "Shift", "**Roll Loop (Hold shift)**
 
-   Performs a standard Auto Loop, but when the loop is turned off the playback position is returned to the position where it would be, if it had not entered the loop.", "**Auto Loop** 
+   Performs a standard Auto Loop, but when the loop is turned off the playback position is returned to the position where it would be, if it had not entered the loop.", "**Auto Loop**
 
    Hold and selecting pad, Activates a loop section of pre-determined pad beat lengths, which loops automatically."
    "Alternative", "**Cue Loop**
@@ -275,14 +259,14 @@ further used as an action or function for the individual pads.
 
    (P3) – 3 Click Flare
 
-   (P4) – 4 Click Flare 
+   (P4) – 4 Click Flare
 
 
    **(P5-8) Factory Functions**
 
    P5 – Stutter / Repeat
 
-   P6 – Start / Previous Track 
+   P6 – Start / Previous Track
 
    P7 – Rewind
 
@@ -317,7 +301,7 @@ further used as an action or function for the individual pads.
    "Shift", "(P9-16) Play Sample", "S**top Playback/Load Sample**
 
    Hold and selecting pad, Stop Playback or Load Sample if the slot is empty."
-   "Alternative", "**Pitch Play (P1-4)** 
+   "Alternative", "**Pitch Play (P1-4)**
 
    Play a single cue Point at variable pitches.
 
@@ -335,53 +319,36 @@ further used as an action or function for the individual pads.
 
 ..
 
-
 **Advanced User Section**
-|
-| For advanced users, alternative functions exist in the code, by
- accessing and setting a code variable.
-|
-| **TAPPING**
-|
-| Added logic for the tap button, Two modes exist:
-|
-| • The default is to use the MIXXX common bpm.tapButton which sets the effective bpm to the one tapped using the
- tempo adjust. Shift tap resets to 0 tempo change.
-|
-| • The alternative changes the actual file bpm. The problem is the reset doesn't work, the best I can do is change the
- effective bpm to the original, but then the file is still "broken" next time it is loaded. The alternative mode
- is only accessible by setting a code variable MixtrackPlatinumFX.tapChangesTempo to false, recommended only for advanced users.
-+-----------------------------------+-----------------------------------+
+
+For advanced users, alternative functions exist in the code, by accessing and setting a code variable.
+
+**TAPPING**
+
+Added logic for the tap button, Two modes exist:
+
+ • The default is to use the MIXXX common bpm.tapButton which sets the effective bpm to the one tapped using the tempo adjust. Shift tap resets to 0 tempo change.
+
+ • The alternative changes the actual file bpm. The problem is the reset doesn't work, the best I can do is change the effective bpm to the original, but then the file is still "broken" next time it is loaded. The alternative mode is only accessible by setting a code variable MixtrackPlatinumFX.tapChangesTempo to false, recommended only for advanced users.
 
 ..
 
-| For the default, the MIXXX common function takes taps and averages
- them. If you don't tap for 2 seconds the average resets and you start again. To prevent accidental double taps or misses if a tap is 40%
- shorter or 80% longer it will be ignored. I found while testing
- sometimes if I got the first two taps wrong the rest would be
- rejected by the filter, but it wasn't obvious this was happening. By
- default the button is dimly lit (like most others). When you tap the
- button if it accepts the tap it will go bright, if it rejects it from
- the filter it will show off. If this happens stop tapping wait 2
- seconds for the filter to clear and try again. Fixed this kicking in after 8 taps.
-|
-| For tapping we have to "guess" which deck is intended, so we use some pointers.
-|
-| 1.we'll only consider loaded decks
-|
-| 2.except in fallback we'll only consider decks on the "active" layer (unless neither on this layer are loaded)
-|
-| 3.If one deck has PFL and the other doesn't we use that one (assumption that tapping bpm will be on a non playout deck)
-|
-| 4.If both have the same PFL state then look if one is playing. Currently prefers the one that IS playing, could argue this the other way?
-|
-| 5.If they both match then use the one with the lowest deck number
-|
-| To help know which it is using when tapping BOTH up and down arrows on the deck are lit. As the first tap doesn't make any changes (you 
- can't work out a bpm from one tap) it is safe to tap and hold the button and check which deck the arrows are showing on.
-|
-| MixtrackPlatinumFX.tapChangesTempo to false, recommended only for advanced users. The pads are for controlling cues, loops, and
- samples via various modes & layers. To select a mode, select a Pad Mode button (Cue, Auto Loop, Fader Cuts & Sample) to assign that
- functionality to the 8 pads. An LED under the pad section indicates the currently selected
+For the default, the MIXXX common function takes taps and averages them. If you don't tap for 2 seconds the average resets and you start again. To prevent accidental double taps or misses if a tap is 40% shorter or 80% longer it will be ignored. I found while testing sometimes if I got the first two taps wrong the rest would be rejected by the filter, but it wasn't obvious this was happening. By default the button is dimly lit (like most others). When you tap the button if it accepts the tap it will go bright, if it rejects it from the filter it will show off. If this happens stop tapping wait 2 seconds for the filter to clear and try again. Fixed this kicking in after 8 taps.
+
+For tapping we have to "guess" which deck is intended, so we use some pointers.
+
+ 1.we'll only consider loaded decks
+
+ 2.except in fallback we'll only consider decks on the "active" layer (unless neither on this layer are loaded)
+
+ 3.If one deck has PFL and the other doesn't we use that one (assumption that tapping bpm will be on a non playout deck)
+
+ 4.If both have the same PFL state then look if one is playing. Currently prefers the one that IS playing, could argue this the other way?
+
+ 5.If they both match then use the one with the lowest deck number
+
+To help know which it is using when tapping BOTH up and down arrows on the deck are lit. As the first tap doesn't make any changes (you can't work out a bpm from one tap) it is safe to tap and hold the button and check which deck the arrows are showing on.
+
+MixtrackPlatinumFX.tapChangesTempo to false, recommended only for advanced users. The pads are for controlling cues, loops, and samples via various modes & layers. To select a mode, select a Pad Mode button (Cue, Auto Loop, Fader Cuts & Sample) to assign that functionality to the 8 pads. An LED under the pad section indicates the currently selected
 
 .. Credit to PopHippy for creating the original PDF file.
