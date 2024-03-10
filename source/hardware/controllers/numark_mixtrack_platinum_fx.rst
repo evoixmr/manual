@@ -130,35 +130,35 @@ The mapping requires the following Soft/Firmware for all enabled features to wor
    "", ":hwlabel:`SHIFT` Beat Grid Adjust", "Adjust Beat Grid, Hold shift and this button to align closest beat to the current play position."
    "30", "Cue (Pad)", "With this Pad mode, each pad assigns a Hot Cue Point, or returns the track to that Hot Cue Point. When a pad is unlit, you can assign a Hot Cue Point by pressing it at the desired point in your track.
 
-   *See Performance Pad Modes"
+   *See Performance Pad Modes*"
    "0", ":hwlabel:`SHIFT` Secondary Hot Cue", "Hot Cue 9-16"
    "", ":hwlabel:`HOLD` or :hwlabel:`2X PRESS`
 
    Beat Jump", "Beat Jump"
    "31", "Auto Loop (Pad)", "With this Pad mode, each pad triggers an auto loop of a different length.
 
-   *See Performance Pad Modes"
+   *See Performance Pad Modes*"
    "", ":hwlabel:`SHIFT` Beat Jump", "Roll Loop"
    "", ":hwlabel:`HOLD` or :hwlabel:`2X PRESS`
 
    Beat Jump", "Cue Loop"
    "32", "Fader Cuts (Pad)", "With this Pad mode, the top 4 performance pads are used to perform transform effects for cuts on scratching.
 
-   *See Performance Pad Modes"
+   *See Performance Pad Modes*"
    "", ":hwlabel:`SHIFT` Roll", "Each pad triggers a roll of a different length"
    "", ":hwlabel:`HOLD` or :hwlabel:`2X PRESS`
 
    Fader Cuts 3rd set", "Fader Cuts Roll Rev, Key Tempo"
    "33", "Sampler 1-8 (Pad)", "With this Pad mode, each pad triggers a sample in the software.
 
-   *See Performance Pad Modes"
+   *See Performance Pad Modes*"
    "", ":hwlabel:`SHIFT` Sampler 9-16", "Selects layer 2 of samples - Performance pads then trigger samples 9-16."
    "", ":hwlabel:`HOLD` or :hwlabel:`2X PRESS`
 
    Pitch Play", "Pitch Play"
    "34", "Performance Pads", "The pads are used to trigger loop points or samples depending on the Pad mode setting.
 
-   *See Performance Pad Modes"
+   *See Performance Pad Modes*"
    "35", "Loop On/Off", "Press to activate auto loop on/off."
    "", ":hwlabel:`SHIFT` Re-Loop", "Triggers a re-loop"
    "36", "Loop 1/2", "Press this button when a loop is active to decrease the loop size by half."
