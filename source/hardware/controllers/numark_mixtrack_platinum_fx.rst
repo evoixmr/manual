@@ -54,26 +54,7 @@ The mapping requires the following Soft/Firmware for all enabled features to wor
    :header: "#", "Name", "Function"
    :widths: 5 25 70
 
-   "1", "Browse Knob (Rotate)", "Rotate this knob to cycle through folders and tracks."
-   "1", "Browse Knob (Press)", "Cycle between the Crates and Library."
-   "1", ":hwlabel:`SHIFT` Browse Knob (Rotate)", "Speed Scrolling"
-   "1", ":hwlabel:`LEFT SHIFT` Browse Knob (Press)", "Open/Close Directory"
-   "1", ":hwlabel:`RIGHT SHIFT` Browse Knob (Press)", "Preview Play/Stop Track"
 
-   "11", "Low EQ", "Controls the bass frequencies for the individual channels."
-   "12", "Filter", "Adjusts the amount of the filter effect. Turning the knob left and right will produce a lowpass filter and high-pass filter, respectively."
-   "13", "Cue/PFL", "Sends pre-fader audio to the cue channel forheadphone monitoring. "
-   "13", ":hwlabel:`SHIFT` Slip Mode", "Toggles slip mode on/off for related deck."
-   "14", "Channel Fader", "Adjusts the volume of the individual channels in the software."
-   "15", "Crossfader", "Controls the blend between the two decks"
-   "16", "Pitch Fader", "This controls the speed of the music. Moving towards the + will speed the music up, while moving towards the – will slow it down."
-   "17", "Pitch Bend Down", "Press and hold to momentarily reduce the speed of the track."
-   "17", ":hwlabel:`SHIFT` Pitch Range", "Hold Shift and this djust Pitch Range"
-   "18", "Pitch Bend Up", "Press and hold to momentarily reduce the speed of the track."
-   "18", ":hwlabel:`SHIFT` Keylock", "Hold Shift and this button to adjust Keylock."
-   "19", "Beats Multiplier", "Increases and decreases the rate of the effects to the beat. When using a time-based effect, this knob adjusts its time division."
-   "19", ":hwlabel:`SHIFT` FX Macros", "Selects and controls FX Macros parameters."
-   "20", "FX Wet/Dry Knob", "Turn this knob to adjust the wet/dry mix of the effects."
    "21", "Software FX", "Press one of these buttons to select a software effect.
 
    • HPF (High pass filter)
