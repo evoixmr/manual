@@ -54,11 +54,7 @@ The mapping requires the following Soft/Firmware for all enabled features to wor
    :header: "#", "Name", "Function"
    :widths: 5 25 70
 
-   "1", "Browse Knob (Rotate)", "Rotate this knob to cycle through folders and tracks."
-   "1", "Browse Knob (Press)", "Cycle between the Crates and Library."
 
-   "1", ":hwlabel:`LEFT SHIFT` Browse Knob (Press)", "Open/Close Directory"
-   "1", ":hwlabel:`RIGHT SHIFT` Browse Knob (Press)", "Preview Play/Stop Track"
    "2", "Master Gain", "Adjusts the master volume in the software."
    "3", "Mic Gain", "Adjusts the level for the microphone input."
    "4", "Cue Mix", "Adjusts the audio output to the headphones, mixing between the cue output and the master mix output."
