@@ -125,8 +125,21 @@ The mapping requires the following Soft/Firmware for all enabled features to wor
    "28", ":hwlabel:`SHIFT` Toggle Quantize", Shift + Sync toggles quantize on/off"
    "29", "Cue", "Sets and recalls the main Cue point in the current track. Hold down the Cue button for temporary play of the cue point. The track will play for as long as the button is held down and return to the cue point once it is released. Press Shift + Cue to return the play head"
    "29", ":hwlabel:`SHIFT` Cue Track Start", "Return cue head to beginning of track."
-   "30", "Play/Pause", "Starts and suspends playback."
-   "30", ":hwlabel:`SHIFT` Beat Grid Adjust", "Adjust Beat Grid, Hold shift and this button to align closest beat to the current play position."
+
+   "33", "Fader Cuts (Pad)", "With this Pad mode, the top 4 performance pads are used to perform transform effects for cuts on scratching.
+
+   *See Performance Pad Modes"
+   "33", ":hwlabel:`SHIFT` Roll", "Each pad triggers a roll of a different length"
+   "33", ":hwlabel:`HOLD` or :hwlabel:`2X PRESS`
+
+   Fader Cuts 3rd set", "Fader Cuts Roll Rev, Key Tempo"
+   "34", "Sampler 1-8 (Pad)", "With this Pad mode, each pad triggers a sample in the software.
+
+   *See Performance Pad Modes"
+   "34", ":hwlabel:`SHIFT` Sampler 9-16", "Selects layer 2 of samples - Performance pads then trigger samples 9-16."
+   "34", ":hwlabel:`HOLD` or :hwlabel:`2X PRESS`
+
+   Pitch Play", "Pitch Play"
 
    "35", "Performance Pads", "The pads are used to trigger loop points or samples depending on the Pad mode setting.
 
