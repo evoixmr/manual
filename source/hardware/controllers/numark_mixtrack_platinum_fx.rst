@@ -56,7 +56,7 @@ The mapping requires the following Soft/Firmware for all enabled features to wor
 
    "1", "Browse Knob (Rotate)", "Rotate this knob to cycle through folders and tracks."
    "1", "Browse Knob (Press)", "Cycle between the Crates and Library."
-   "1", ":hwlabel:`SHIFT`Browse Knob (Rotate)", "Speed Scrolling"
+   "1", ":hwlabel:`SHIFT` Browse Knob (Rotate)", "Speed Scrolling"
    "1", ":hwlabel:`LEFT SHIFT` Browse Knob (Press)", "Open/Close Directory"
    "1", ":hwlabel:`RIGHT SHIFT` Browse Knob (Press)", "Preview Play/Stop Track"
    "2", "Master Gain", "Adjusts the master volume in the software."
@@ -73,7 +73,7 @@ The mapping requires the following Soft/Firmware for all enabled features to wor
    "11", "Low EQ", "Controls the bass frequencies for the individual channels."
    "12", "Filter", "Adjusts the amount of the filter effect. Turning the knob left and right will produce a lowpass filter and high-pass filter, respectively."
    "13", "Cue/PFL", "Sends pre-fader audio to the cue channel forheadphone monitoring. "
-   "13", ":hwlabel:`SHIFT`Slip Mode", "Toggles slip mode on/off for related deck."
+   "13", ":hwlabel:`SHIFT` Slip Mode", "Toggles slip mode on/off for related deck."
    "14", "Channel Fader", "Adjusts the volume of the individual channels in the software."
    "15", "Crossfader", "Controls the blend between the two decks"
    "16", "Pitch Fader", "This controls the speed of the music. Moving towards the + will speed the music up, while moving towards the – will slow it down."
@@ -98,16 +98,15 @@ The mapping requires the following Soft/Firmware for all enabled features to wor
    "23", ":hwlabel:`SHIFT` Default Tempo Reset", "Press Shift and this button to reset the tempo to the track to default BPM."
    "24", "Platter/Jog Wheel", "This capacitive, touch-sensitive jog wheel controls the audio when the wheel is touched and moved. When the Scratch button is not active, use the jog wheel to bend the pitch of the track. When the Scratch button is active, use the jog wheel to grab and move the audio, scratching the track as you would with a vinyl record. You can also grab the non-touch-sensitive outer wheel, to bend the pitch of the track."
    "24", ":hwlabel:`SHIFT` Scrub Scroll", "Scrub Scrolling while holding Jog wheel."
-   "25", "Deck Display", "1. Active Deck: Indicates the currently active deck.
-
-   2. Platter Position: Displays the current track position.
-   3. BPM: Displays the current BPM for the selected track.
-   4. Keylock: This icon illuminateswhen keylock is active for the current deck.
-   5. Pitch Range: Shows the current pitch range.
-   6. Pitch: Shows current pitch of the track.
-   7. Pitch Adjust: Indicates the direction to move Pitch Fader to match the current track’s BPM with the track on the opposite deck.
-   8. Time Remaining: Displays the time elapsed or time remaining for the current track. (Time elapsed only implemented in current mapping).
-   9. Time Bars: Provides visual reference to time remaining on the selected song. When the song is almost over these segments will flash to give a warning."
+   "25", "Deck Display", "**1. Active Deck:** Indicates the currently active deck.
+   **2. Platter Position:** Displays the current track position.
+   **3. BPM:** Displays the current BPM for the selected track.
+   **4. Keylock:** This icon illuminates when keylock is active for the current deck.
+   **5. Pitch Range:** Shows the current pitch range.
+   **6. Pitch:** Shows current pitch of the track.
+   **7. Pitch Adjust:** Indicates the direction to move Pitch Fader to match the current track’s BPM with the track on the opposite deck.
+   **8. Time Remaining:** Displays the time elapsed or time remaining for the current track. (Time elapsed only implemented in current mapping).
+   **9. Time Bars:** Provides visual reference to time remaining on the selected song. When the song is almost over these segments will flash to give a warning."
    "26", "Scratch", "Press this button to turn on the scratch feature for the jog wheel. Hold Shift and press this button to select which Layer in the software is controlled by that hardware Deck. Deck 1 can control Layer 1 or 3; Deck 2 can control Layer 2 or 4."
    "26", ":hwlabel:`SHIFT` Deck Select", "Switch between decks 1 & 3 or 2 & 4 for 4 deck mixing"
    "27", "Shift", "Allows multiple control commands to be triggered when pressed first along with other buttons."
@@ -119,22 +118,35 @@ The mapping requires the following Soft/Firmware for all enabled features to wor
    "29", "Cue", "Sets and recalls the main Cue point in the current track. Hold down the Cue button for temporary play of the cue point. The track will play for as long as the button is held down and return to the cue point once it is released. Press Shift + Cue to return the play head"
    "29", ":hwlabel:`SHIFT` Cue Track Start", "Return cue head to beginning of track."
    "30", "Play/Pause", "Starts and suspends playback."
+   "30", ":hwlabel:`SHIFT` Beat Grid Adjust", "Adjust Beat Grid, Hold shift and this button to align closest beat to the current play position."
    "31", "Cue (Pad)", "With this Pad mode, each pad assigns a Hot Cue Point, or returns the track to that Hot Cue Point. When a pad is unlit, you can assign a Hot Cue Point by pressing it at the desired point in your track.
 
    *See Performance Pad Modes"
-   "31", ":hwlabel:`SHIFT` Beat Grid Adjust", "Adjust Beat Grid, Hold shift and this button to align closest beat to the current play position."
+   "31", ":hwlabel:`SHIFT` Secondary Hot Cue", "Hot Cue 9-16"
+   "31", ":hwlabel:`HOLD` or :hwlabel:`2X PRESS` 
+
+   Beat Jump", "Beat Jump"
    "32", "Auto Loop (Pad)", "With this Pad mode, each pad triggers an auto loop of a different length.
 
    *See Performance Pad Modes"
-   "32", ":hwlabel:`SHIFT` Beat Jump", "Beat Jump"
+   "32", ":hwlabel:`SHIFT` Beat Jump", "Roll Loop"
+   "32", ":hwlabel:`HOLD` or :hwlabel:`2X PRESS` 
+
+   Beat Jump", "Cue Loop"
    "33", "Fader Cuts (Pad)", "With this Pad mode, the top 4 performance pads are used to perform transform effects for cuts on scratching.
 
    *See Performance Pad Modes"
    "33", ":hwlabel:`SHIFT` Roll", "Each pad triggers a roll of a different length"
+   "33", ":hwlabel:`HOLD` or :hwlabel:`2X PRESS` 
+
+   Fader Cuts 3rd set", "Fader Cuts Roll Rev, Key Tempo"
    "34", "Sampler 1-8 (Pad)", "With this Pad mode, each pad triggers a sample in the software.
 
    *See Performance Pad Modes"
    "34", ":hwlabel:`SHIFT` Sampler 9-16", "Selects layer 2 of samples - Performance pads then trigger samples 9-16."
+   "34", ":hwlabel:`HOLD` or :hwlabel:`2X PRESS` 
+
+   Pitch Play", "Pitch Play"
    "35", "Performance Pads", "The pads are used to trigger loop points or samples depending on the Pad mode setting.
 
    *See Performance Pad Modes"
