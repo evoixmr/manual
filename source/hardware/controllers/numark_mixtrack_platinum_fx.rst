@@ -206,7 +206,6 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
    "1 beat", "2 beat", "4 beat", "8 beat"
 
 ..
-
 **Cue Mode & Layers**
 
 .. csv-table::
@@ -218,7 +217,7 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
    Each pad assigns a Hot Cue Point, or returns the track to that Hot Cue Point. When a pad is unlit, you can assign a Hot Cue Point by pressing it at the desired point in your track.", "**Remove Cue**
 
    Hold and selecting pad, removes that cue point."
-   ":hwlabel:`SHIFT` "**Cue 9-16**
+   ":hwlabel:`SHIFT`", "**Cue 9-16**
 
    Same as Normal mode", "**Remove Cue**
 
@@ -229,11 +228,11 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
 
    Lets you move forwards in a track in predefined pad beat increments while staying in sync and on time.
 
-   *See Pad Loop Lengths", "**Reverse Beat Jump**
+   *See Pad Loop Lengths*", "**Reverse Beat Jump**
 
-   Holding and selecting pad, let’s you move backwards in a track in predefined pad beat increments while staying in sync and on time
+   Holding and selecting pad, let's you move backwards in a track in predefined pad beat increments while staying in sync and on time
 
-   *See Pad Loop Lengths"
+   *See Pad Loop Lengths*"
 
 ..
 
