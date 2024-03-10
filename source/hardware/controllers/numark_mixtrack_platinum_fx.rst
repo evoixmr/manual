@@ -279,13 +279,13 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
    (P5) – Reverse Roll (Censor)
 
    (P6) – Reverse Toggle (Censor)
-   
+
    (P7) – Key sync to deck
-   
+
    (P8) – Tap Tempo.", "(P5-8) Various Fader Cuts
 
    (P7) – Reset Key sync
-   
+
    (P8) – Reset Tap Tempo."
 ..
 
