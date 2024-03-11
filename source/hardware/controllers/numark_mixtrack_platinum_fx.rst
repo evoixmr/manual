@@ -1,7 +1,7 @@
 Numark Mixtrack Platinum FX
 ==============================
 
-.. figure:: ../../_static/controllers/numark_mixtrack_platinum_fx_toprow.png
+.. figure:: ../../_static/controllers/numark_mixtrack_platinum_fx_top.jpg
    :align: center
    :width: 100%
    :figwidth: 100%
@@ -35,7 +35,7 @@ The microphone input on this controller is not available to the computer through
 Control Mapping
 ---------------
 
-.. figure:: ../../_static/controllers/numark_mixtrack_platinum_fx.png
+.. figure:: ../../_static/controllers/numark_mixtrack_platinum_fx.svg
    :align: center
    :width: 100%
    :figwidth: 100%
@@ -89,16 +89,16 @@ Control Mapping
    "22", "FX Toggle On / Off:", "Push up on the toggle switch to latch (lock) the FX in the on position. Push down on the toggle switch to turn the FX on momentarily. When the toggle switch is in the middle position, the FX will be off."
    "23", "Tap BPM", "Press this a minimum of 4 times to manually enter a new BPM. The software will ignore the track's BPM and follow your manually entered tempo.
 
-   *See Tapping Logic*"
+   See :ref:`Tapping Logic <numark-platinum-fx-tapping-logic>`"
    "", "Left :hwlabel:`PFL` ON (Right off)", "Set BPM for left deck.
 
-   *See Tapping Logic*"
+   See :ref:`Tapping Logic <numark-platinum-fx-tapping-logic>`"
    "", "Right :hwlabel:`PFL` ON (Left off)", "Set BPM for right deck.
 
-   *See Tapping Logic*"
+   See :ref:`Tapping Logic <numark-platinum-fx-tapping-logic>`"
    "", ":hwlabel:`SHIFT` Default Tempo Reset", "Press Shift and this button to reset the tempo to the track to default BPM.
 
-   Note: Reset the selected deck *See Tapping Logic*"
+   Note: Reset the selected deck. See :ref:`Tapping Logic <numark-platinum-fx-tapping-logic>`"
    "24", "Platter/Jog Wheel", "This capacitive, touch-sensitive jog wheel controls the audio when the wheel is touched and moved. When the Scratch button is not active, use the jog wheel to bend the pitch of the track. When the Scratch button is active, use the jog wheel to grab and move the audio, scratching the track as you would with a vinyl record. You can also grab the non-touch-sensitive outer wheel, to bend the pitch of the track."
    "24", ":hwlabel:`SHIFT` Scrub Scroll", "Scrub Scrolling while holding Jog wheel."
    "", "Deck Display", "**1. Active Deck:** Indicates the currently active deck.
@@ -132,35 +132,35 @@ Control Mapping
    "", ":hwlabel:`SHIFT` Beat Grid Adjust", "Adjust Beat Grid, Hold shift and this button to align closest beat to the current play position."
    "30", "Cue (Pad)", "With this Pad mode, each pad assigns a Hot Cue Point, or returns the track to that Hot Cue Point. When a pad is unlit, you can assign a Hot Cue Point by pressing it at the desired point in your track.
 
-   *See Performance Pad Modes*"
+   See :ref:`Performance Pad Modes <numark-platinum-fx-performance-pad-modes>`"
    "", ":hwlabel:`SHIFT` Secondary Hot Cue", "Hot Cue 9-16"
    "", ":hwlabel:`HOLD` or :hwlabel:`2X PRESS`
 
    Beat Jump", "Beat Jump"
    "31", "Auto Loop (Pad)", "With this Pad mode, each pad triggers an auto loop of a different length.
 
-   *See Performance Pad Modes*"
+   See :ref:`Performance Pad Modes <numark-platinum-fx-performance-pad-modes>`"
    "", ":hwlabel:`SHIFT` Beat Jump", "Roll Loop"
    "", ":hwlabel:`HOLD` or :hwlabel:`2X PRESS`
 
    Beat Jump", "Cue Loop"
    "32", "Fader Cuts (Pad)", "With this Pad mode, the top 4 performance pads are used to perform transform effects for cuts on scratching.
 
-   *See Performance Pad Modes*"
+   See :ref:`Performance Pad Modes <numark-platinum-fx-performance-pad-modes>`"
    "", ":hwlabel:`SHIFT` Roll", "Each pad triggers a roll of a different length"
    "", ":hwlabel:`HOLD` or :hwlabel:`2X PRESS`
 
    Fader Cuts 3rd set", "Fader Cuts Roll Rev, Key Tempo"
    "33", "Sampler 1-8 (Pad)", "With this Pad mode, each pad triggers a sample in the software.
 
-   *See Performance Pad Modes*"
+   See :ref:`Performance Pad Modes <numark-platinum-fx-performance-pad-modes>`"
    "", ":hwlabel:`SHIFT` Sampler 9-16", "Selects layer 2 of samples - Performance pads then trigger samples 9-16."
    "", ":hwlabel:`HOLD` or :hwlabel:`2X PRESS`
 
    Pitch Play", "Pitch Play"
    "34", "Performance Pads", "The pads are used to trigger loop points or samples depending on the Pad mode setting.
 
-   *See Performance Pad Modes*"
+   See :ref:`Performance Pad Modes <numark-platinum-fx-performance-pad-modes>`"
    "35", "Loop On/Off", "Press to activate auto loop on/off."
    "", ":hwlabel:`SHIFT` Re-Loop", "Triggers a re-loop"
    "36", "Loop 1/2", "Press this button when a loop is active to decrease the loop size by half."
@@ -168,6 +168,8 @@ Control Mapping
    "37", "Loop x2", "Press this button when a loop is active to double the loop size."
    "", ":hwlabel:`SHIFT` Loop Out (Manual Loop)", "Set the Loop Out point for a manual loop."
 ..
+
+.. _numark-platinum-fx-performance-pad-modes:
 
 Performance Pad Modes
 ---------------------
@@ -198,6 +200,8 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
 ..
 
 **NOTE:** Within these modes initiated by SHIFT, the SHIFT button can be further used as an action or function for the individual pads.
+
+.. _numark-platinum-fx-pad-loop-lengths:
 
 **Pad Loop Lengths**
 
@@ -232,11 +236,11 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
 
    Lets you move forwards in a track in predefined pad beat increments while staying in sync and on time.
 
-   *See Pad Loop Lengths*", "**Reverse Beat Jump**
+   See :ref:`Pad Loop Lengths <numark-platinum-fx-pad-loop-lengths>`", "**Reverse Beat Jump**
 
    Holding and selecting pad, let's you move backwards in a track in predefined pad beat increments while staying in sync and on time
 
-   *See Pad Loop Lengths*"
+   See :ref:`Pad Loop Lengths <numark-platinum-fx-pad-loop-lengths>`"
 ..
 
 
@@ -339,24 +343,30 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
 
    Hold and selecting other cue point on Cue Pad changes cue."
 
+.. _numark-platinum-fx-tapping-logic:
+
 Tapping
 -------
 
 Logic for the tap button:
 
-For tapping we have to "guess" which deck is intended, so we use some pointers.
+1. If only one deck is loaded the BPM is control the loaded deck.
+ 
+2. If both decks are loaded (only 1 PFL ON):
+   
+   A. One deck with active PFL, the BPM button will be assigned to the deck with active PFL.
 
- 1.we'll only consider loaded decks
+3. If both deck is loaded (Both PFL on the same state):
 
- 2.except in fallback we'll only consider decks on the "active" layer (unless neither on this layer are loaded)
+   A. The BPM button will be assigned to the deck the is playing.
 
- 3.If one deck has PFL and the other doesn't we use that one (assumption that tapping bpm will be on a non playout deck)
+   B. If both deck are playing, then BPM will control the deck with the lowest deck number
 
- 4.If both have the same PFL state then look if one is playing. Currently prefers the one that IS playing, could argue this the other way?
+*Note:* 
+*BPM only controls the active deck*
+*To help know which it is using when tapping BOTH up and down arrows on the deck are lit. As the first tap doesn't make any changes (you can't work out a bpm from one tap) it is safe to tap and hold the button and check which deck the arrows are showing on.*
 
- 5.If they both match then use the one with the lowest deck number
-
-To help know which it is using when tapping BOTH up and down arrows on the deck are lit. As the first tap doesn't make any changes (you can't work out a bpm from one tap) it is safe to tap and hold the button and check which deck the arrows are showing on.
+**PADS**
 
 The pads are for controlling cues, loops, and samples via various modes & layers. To select a mode, select a Pad Mode button (Cue, Auto Loop, Fader Cuts & Sample) to assign that functionality to the 8 pads. An LED under the pad section indicates the currently selected
 
