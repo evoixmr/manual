@@ -206,6 +206,7 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
    "1 beat", "2 beat", "4 beat", "8 beat"
 
 ..
+
 **Cue Mode & Layers**
 
 .. csv-table::
