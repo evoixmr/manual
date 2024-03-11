@@ -362,7 +362,7 @@ Logic for the tap button:
 
    B. If both deck are playing, then BPM will control the deck with the lowest deck number
 
-*Note:* 
+*Note:*
 *BPM only controls the active deck*
 *To help know which it is using when tapping BOTH up and down arrows on the deck are lit. As the first tap doesn't make any changes (you can't work out a bpm from one tap) it is safe to tap and hold the button and check which deck the arrows are showing on.*
 
