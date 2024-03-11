@@ -87,8 +87,18 @@ Control Mapping
    • Phaser"
    "21", ":hwlabel:`SHIFT` Multiple FX (at once)", "Hold shift and select/unselect multiple FX buttons to be active at once."
    "22", "FX Toggle On / Off:", "Push up on the toggle switch to latch (lock) the FX in the on position. Push down on the toggle switch to turn the FX on momentarily. When the toggle switch is in the middle position, the FX will be off."
-   "23", "Tap BPM", "Press this a minimum of 4 times to manually enter a new BPM. The software will ignore the track's BPM and follow your manually entered tempo."
-   "", ":hwlabel:`SHIFT` Default Tempo Reset", "Press Shift and this button to reset the tempo to the track to default BPM."
+   "23", "Tap BPM", "Press this a minimum of 4 times to manually enter a new BPM. The software will ignore the track's BPM and follow your manually entered tempo.
+
+   *See Tapping Logic*"
+   "", "Left :hwlabel:`PFL` ON (Right off)", "Set BPM for left deck.
+
+   *See Tapping Logic*"
+   "", "Right :hwlabel:`PFL` ON (Left off)", "Set BPM for right deck.
+
+   *See Tapping Logic*"
+   "", ":hwlabel:`SHIFT` Default Tempo Reset", "Press Shift and this button to reset the tempo to the track to default BPM.
+
+   Note: Reset the selected deck *See Tapping Logic*"
    "24", "Platter/Jog Wheel", "This capacitive, touch-sensitive jog wheel controls the audio when the wheel is touched and moved. When the Scratch button is not active, use the jog wheel to bend the pitch of the track. When the Scratch button is active, use the jog wheel to grab and move the audio, scratching the track as you would with a vinyl record. You can also grab the non-touch-sensitive outer wheel, to bend the pitch of the track."
    "24", ":hwlabel:`SHIFT` Scrub Scroll", "Scrub Scrolling while holding Jog wheel."
    "", "Deck Display", "**1. Active Deck:** Indicates the currently active deck.
