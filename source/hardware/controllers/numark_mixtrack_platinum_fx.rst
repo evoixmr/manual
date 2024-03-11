@@ -118,15 +118,14 @@ Control Mapping
    **8. Time Remaining:** Displays the time elapsed or time remaining for the current track. (Time elapsed only implemented in current mapping).
 
    **9. Time Bars:** Provides visual reference to time remaining on the selected song. When the song is almost over these segments will flash to give a warning."
-   "25", "Scratch", "Press this button to turn on the scratch feature for the jog wheel. Hold Shift and press this button to select which Layer in the software is controlled by that hardware Deck. Deck 1 can control Layer 1 or 3; Deck 2 can control Layer 2 or 4."
+   "25", "Scratch", "Press this button to turn on the scratch feature for the jog wheel."
    "", ":hwlabel:`SHIFT` Deck Select", "Switch between decks 1 & 3 or 2 & 4 for 4 deck mixing"
    "26", "Shift", "Allows multiple control commands to be triggered when pressed first along with other buttons."
-   "27", "Sync", "**Tap** this button to automatically match the corresponding Deck's tempo with the opposite Deck's tempo.
-
-   **Hold** for at least one second to lock sync. Tap again to release sync lock.
-
-   Hold **Shift** and tap to toggle quantize on/off."
-   "28", "Cue", "Sets and recalls the main Cue point in the current track. Hold down the Cue button for temporary play of the cue point. The track will play for as long as the button is held down and return to the cue point once it is released. Press Shift + Cue to return the play head"
+   "27", "Sync", "**Tap** this button to automatically match the corresponding Deck's tempo with the opposite Deck's tempo.."
+   "", ":hwlabel:`HOLD` Lock Sync", Hold for at least one second to lock sync. Tap again to release sync lock."
+   "", ":hwlabel:`SHIFT` Quantize", "Toggle quantize on/off."
+   "28", "Cue", "Sets and recalls the main Cue point in the current track"
+   "", ":hwlabel:`HOLD` Cue Play", "Hold down the Cue button for temporary play of the cue point. The track will play for as long as the button is held down and return to the cue point once it is released"
    "", ":hwlabel:`SHIFT` Cue Track Start", "Return cue head to beginning of track."
    "29", "Play/Pause", "Starts and suspends playback."
    "", ":hwlabel:`SHIFT` Beat Grid Adjust", "Adjust Beat Grid, Hold shift and this button to align closest beat to the current play position."
