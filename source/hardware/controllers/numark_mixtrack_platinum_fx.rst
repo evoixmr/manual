@@ -71,7 +71,7 @@ Control Mapping
    "15", "Crossfader", "Controls the blend between the two decks"
    "16", "Pitch Fader", "This controls the speed of the music. Moving towards the + will speed the music up, while moving towards the – will slow it down."
    "17", "Pitch Bend Down", "Press and hold to momentarily reduce the speed of the track."
-   "7", ":hwlabel:`SHIFT` Pitch Range", "Hold Shift and this djust Pitch Range"
+   "", ":hwlabel:`SHIFT` Pitch Range", "Hold Shift and this djust Pitch Range"
    "18", "Pitch Bend Up", "Press and hold to momentarily reduce the speed of the track."
    "", ":hwlabel:`SHIFT` Keylock", "Hold Shift and this button to adjust Keylock."
    "19", "Beats Multiplier", "Increases and decreases the rate of the effects to the beat. When using a time-based effect, this knob adjusts its time division."
@@ -116,7 +116,6 @@ Control Mapping
    **Hold** for at least one second to lock sync. Tap again to release sync lock.
 
    Hold **Shift** and tap to toggle quantize on/off."
-
    "28", "Cue", "Sets and recalls the main Cue point in the current track. Hold down the Cue button for temporary play of the cue point. The track will play for as long as the button is held down and return to the cue point once it is released. Press Shift + Cue to return the play head"
    "", ":hwlabel:`SHIFT` Cue Track Start", "Return cue head to beginning of track."
    "29", "Play/Pause", "Starts and suspends playback."
@@ -124,7 +123,7 @@ Control Mapping
    "30", "Cue (Pad)", "With this Pad mode, each pad assigns a Hot Cue Point, or returns the track to that Hot Cue Point. When a pad is unlit, you can assign a Hot Cue Point by pressing it at the desired point in your track.
 
    *See Performance Pad Modes*"
-   "0", ":hwlabel:`SHIFT` Secondary Hot Cue", "Hot Cue 9-16"
+   "", ":hwlabel:`SHIFT` Secondary Hot Cue", "Hot Cue 9-16"
    "", ":hwlabel:`HOLD` or :hwlabel:`2X PRESS`
 
    Beat Jump", "Beat Jump"
@@ -283,7 +282,6 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
    ":hwlabel:`SHIFT`", "(P1-4) Standard Fader Cuts
 
    (P5-8) Extended Fader Cuts", ""
-
    ":hwlabel:`Hold` or :hwlabel:`Double Click`
 
    Alternative", "(P1-4) Standard Fader Cuts
