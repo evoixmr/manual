@@ -1,44 +1,39 @@
 Numark Mixtrack Platinum FX
 ==============================
 
--  `Manufacturer’s product page <https://www.numark.com/product/mixtrack-platinum-fx>`__
--  `Forum thread <https://mixxx.discourse.group/t/numark-mixtrack-platinum-fx-mapping/19985/215>`__
-
-Mixtrack Platinum FX is a 24-bit 4-deck digital DJ controller with a dedicated software effects section, large 6-inch capacitive-touch jog wheels with built in hi-res displays and 16-multifunctional performance pads.
-
-**Firmware**
-
-The mapping requires the following Soft/Firmware for all enabled features to work for Mixxx 2.4
-
--  `Firmware Update v1.10 MAC <https://cdn.inmusicbrands.com/Numark/MixtrackPlatinumFX/Mixtrack%20Platinum%20FX%20Firmware%201.10%20Mac.zip>`__
--  `Firmware Update v1.10 WIN <https://cdn.inmusicbrands.com/Numark/MixtrackPlatinumFX/Mixtrack%20Platinum%20FX%20Firmware%201.10%20Win.zip>`__
-- Linux user need to install firmware using Windows or MAC.
-
---------
-
-.. figure:: ../../_static/controllers/numark_mixtrack_platinum_fx_toprow.png
+.. figure:: ../../_static/controllers/numark_mixtrack_platinum_fx_top.png
    :align: center
    :width: 100%
    :figwidth: 100%
    :alt: Numark Mixtrack Playinum FX (schematic view)
    :figclass: pretty-figures
 
-   Mapping Manual for NUMARK MIXTRACK PLATINUM FX
 
--------------------------------------
+The Mixtrack Platinum FX is a 24-bit 4-deck digital DJ controller with a dedicated software effects section, large 6-inch capacitive-touch jog wheels and 16-multifunctional performance pads. Its stand out feature  is the LCD displays integrated into the jog wheels, apart from that it shares the layout of the Mixtrack Pro FX.
 
-**Overview**
+It is a USB Audio and MIDI Class compliant device and works with Linux, macOS, and Windows.
 
-|  The pads are for controlling cue’s, loops, and The Numark Mixtrack Platinum FX is a 2 channel (with 4 channel layering) entry level DJ controller with an integrated audio interface. The stand out feature of the Mixtrack Platinum FX is the LCD displays integrated into the jog wheels. It is a USB Audio and MIDI Class compliant device and works with Linux, macOS, and Windows.
-|
-| **Audio Interface**
-|
-| Configure Mixxxs’ Master output for channels 1-2 and Headphones output for Channels 3-4.
-|
-| The microphone input on this controller is not available to the computer through the controller’s audio interface. It is mixed with the master output in hardware, so this controller’s audio interface is not suitable for broadcasting or recording the inputs. If you want to use the controller for broadcasting or recording, a separate audio interface with a microphone input is suggested.
-|
+- `Manufacturer's product page <https://www.numark.com/product/mixtrack-platinum-fx>`__
+- `Forum thread <https://mixxx.discourse.group/t/numark-mixtrack-platinum-fx-mapping/19985/215>`__
 
-**Control Mapping**
+Firmware
+--------
+
+The mapping requires the following Firmware for all enabled features to work for Mixxx 2.4
+
+-  `Firmware Update v1.10 MAC <https://cdn.inmusicbrands.com/Numark/MixtrackPlatinumFX/Mixtrack%20Platinum%20FX%20Firmware%201.10%20Mac.zip>`_
+-  `Firmware Update v1.10 WIN <https://cdn.inmusicbrands.com/Numark/MixtrackPlatinumFX/Mixtrack%20Platinum%20FX%20Firmware%201.10%20Win.zip>`_
+- Linux users need to install firmware using Windows or MAC.
+
+Audio Interface
+---------------
+
+Configure Mixxx' Main output for channels 1-2 and Headphones output for Channels 3-4.
+
+The microphone input on this controller is not available to the computer through the controller's audio interface. It is mixed with the master output in hardware, so this controller's audio interface is not suitable for broadcasting or recording the inputs. If you want to use the controller for broadcasting or recording, a separate audio interface with a microphone input is suggested.
+
+Control Mapping
+---------------
 
 .. figure:: ../../_static/controllers/numark_mixtrack_platinum_fx.png
    :align: center
@@ -47,8 +42,6 @@ The mapping requires the following Soft/Firmware for all enabled features to wor
    :alt: Numark Mixtrack Playinum FX (schematic view)
    :figclass: pretty-figures
 
-
-**Numark Mixtrack Platinum FX (Controls Condensed)**
 
 .. csv-table::
    :header: "#", "Name", "Function"
@@ -167,9 +160,10 @@ The mapping requires the following Soft/Firmware for all enabled features to wor
    "", ":hwlabel:`SHIFT` Loop Out (Manual Loop)", "Set the Loop Out point for a manual loop."
 ..
 
-**Performance Pad Modes**
+Performance Pad Modes
+---------------------
 
-The pads are for controlling cue’s, loops, and samples via various modes. To select a mode, select a Pad Mode button (Cue, Auto Loop, Fader Cuts & Sample) to assign that functionality to the 8 pads. An LED under the pad, indicates the currently selected mode.
+The pads are for controlling cue's, loops, and samples via various modes. To select a mode, select a Pad Mode button (Cue, Auto Loop, Fader Cuts & Sample) to assign that functionality to the 8 pads. An LED under the pad, indicates the currently selected mode.
 
 Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & ALTERNATE is also provided, as shown in the matrix below.
 
@@ -234,8 +228,8 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
    Holding and selecting pad, let's you move backwards in a track in predefined pad beat increments while staying in sync and on time
 
    *See Pad Loop Lengths*"
-
 ..
+
 
 **Auto Loop Mode & Layers**
 
@@ -270,20 +264,12 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
    :header: "Mode", "Pad Function", "Shift (as Pad Action)"
    :widths: 25 70 50
 
-   "Normal",   "**Fader Cuts (Pad 1-4)**
+   "Normal", "**Fader Cuts (Pad 1-4)**
 
-   The pads will mute and unmute the deck’s audio signal in a way that emulates crossfader movements toward that deck.
 
-   (P1-4) Standard Fader Cuts
+   The pads will mute and unmute the deck's audio signal in a way that emulates crossfader movements toward that deck.
 
-   (P1) - 1 Click Flare
-
-   (P2) – 2 Click Flare
-
-   (P3) – 3 Click Flare
-
-   (P4) – 4 Click Flare
-
+   (P1-4) Standard Fader Cuts (Click Flares)
 
    **(P5-8) Factory Functions**
 
@@ -345,9 +331,8 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
 
    Hold and selecting other cue point on Cue Pad changes cue."
 
-..
-
-**TAPPING**
+Tapping
+-------
 
 Logic for the tap button:
 
