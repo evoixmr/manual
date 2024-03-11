@@ -344,19 +344,23 @@ Tapping
 
 Logic for the tap button:
 
-For tapping we have to "guess" which deck is intended, so we use some pointers.
+1. If only one deck is loaded the BPM is control the loaded deck.
+ 
+2. If both decks are loaded (only 1 PFL ON):
+   
+   A. One deck with active PFL, the BPM button will be assigned to the deck with active PFL.
 
- 1.we'll only consider loaded decks
+3. If both deck is loaded (Both PFL on the same state):
 
- 2.except in fallback we'll only consider decks on the "active" layer (unless neither on this layer are loaded)
+   A. The BPM button will be assigned to the deck the is playing.
 
- 3.If one deck has PFL and the other doesn't we use that one (assumption that tapping bpm will be on a non playout deck)
+   B. If both deck are playing, then BPM will control the deck with the lowest deck number
 
- 4.If both have the same PFL state then look if one is playing. Currently prefers the one that IS playing, could argue this the other way?
+*Note:* 
+*BPM only controls the active deck*
+*To help know which it is using when tapping BOTH up and down arrows on the deck are lit. As the first tap doesn't make any changes (you can't work out a bpm from one tap) it is safe to tap and hold the button and check which deck the arrows are showing on.*
 
- 5.If they both match then use the one with the lowest deck number
-
-To help know which it is using when tapping BOTH up and down arrows on the deck are lit. As the first tap doesn't make any changes (you can't work out a bpm from one tap) it is safe to tap and hold the button and check which deck the arrows are showing on.
+**PADS**
 
 The pads are for controlling cues, loops, and samples via various modes & layers. To select a mode, select a Pad Mode button (Cue, Auto Loop, Fader Cuts & Sample) to assign that functionality to the 8 pads. An LED under the pad section indicates the currently selected
 
