@@ -1,7 +1,7 @@
 Numark Mixtrack Platinum FX
 ==============================
 
-.. figure:: ../../_static/controllers/numark_mixtrack_platinum_fx_top.jpg
+.. figure:: ../../_static/controllers/numark_mixtrack_platinum_fx_toprow.png
    :align: center
    :width: 100%
    :figwidth: 100%
@@ -35,7 +35,7 @@ The microphone input on this controller is not available to the computer through
 Control Mapping
 ---------------
 
-.. figure:: ../../_static/controllers/numark_mixtrack_platinum_fx.svg
+.. figure:: ../../_static/controllers/numark_mixtrack_platinum_fx.png
    :align: center
    :width: 100%
    :figwidth: 100%
