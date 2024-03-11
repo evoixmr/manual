@@ -351,9 +351,9 @@ Tapping
 Logic for the tap button:
 
 1. If only one deck is loaded the BPM is control the loaded deck.
- 
+
 2. If both decks are loaded (only 1 PFL ON):
-   
+
    A. One deck with active PFL, the BPM button will be assigned to the deck with active PFL.
 
 3. If both deck is loaded (Both PFL on the same state):
