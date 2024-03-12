@@ -180,7 +180,7 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
 
 .. csv-table::
    :header: "Mode", "Cue", "Auto Loop", "Fader Cuts", "Samples"
-   :widths: 70 25 25 25 25
+   :widths: 40 30 30 30 30
 
    "Normal
 
@@ -189,8 +189,10 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
    Transport", "Sample 1-8"
    ":hwlabel:`SHIFT`
 
+   Secondary Mode
+
    • (LED On)", "Hot Cue 9-16", "Roll Loop", "Fader Cuts 8", "Sample 9-16"
-   ":hwlabel:`Hold` or :hwlabel:`Double Click`
+   ":hwlabel:`Hold` or :hwlabel:`2X PRESS`
 
    Alternative Mode
 
@@ -218,21 +220,29 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
 
 .. csv-table::
    :header: "Mode", "Pad Function", "Shift function"
-   :widths: 25 70 50
+   :widths: 40 50 50
 
-   "Normal", "**Cue Pad 1-8**
+   "Normal
+
+   • (LED Slow Blink)", "**Cue Pad 1-8**
 
    Each pad assigns a Hot Cue Point, or returns the track to that Hot Cue Point. When a pad is unlit, you can assign a Hot Cue Point by pressing it at the desired point in your track.", "**Remove Cue**
 
    Hold and selecting pad, removes that cue point."
-   ":hwlabel:`SHIFT`", "**Cue 9-16**
+   ":hwlabel:`SHIFT`
+
+   Secondary Mode
+
+   • (LED On)", "**Cue 9-16**
 
    Same as Normal mode", "**Remove Cue**
 
    Hold and selecting pad, removes that cue point."
-   ":hwlabel:`Hold` or :hwlabel:`Double Click`
+   ":hwlabel:`Hold` or :hwlabel:`2X PRESS`
 
-   Alternative", "**Beat Jump**
+   Alternative Mode
+
+   • (LED Fast Blink)", "**Beat Jump**
 
    Lets you move forwards in a track in predefined pad beat increments while staying in sync and on time.
 
@@ -248,21 +258,29 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
 
 .. csv-table::
    :header: "Mode", "Pad Function", "Shift function"
-   :widths: 25 70 50
+   :widths: 40 50 50
 
-   "Normal", "**Auto Loop8**
+   "Normal
+
+   • (LED Slow Blink)", "**Auto Loop8**
 
    Activates a loop section of pre-determined pad beat lengths, which loops automatically.", "**Roll Loop (Hold shift)**
 
    Hold and selecting pad, performs a standard Auto Loop, but when the loop is turned off the playback position is returned to the position where it would be, if it had not entered the loop."
-   ":hwlabel:`SHIFT`", "**Roll Loop (Hold shift)**
+   ":hwlabel:`SHIFT`
+
+   Secondary Mode
+
+   • (LED On)", "**Roll Loop (Hold shift)**
 
    Performs a standard Auto Loop, but when the loop is turned off the playback position is returned to the position where it would be, if it had not entered the loop.", "**Auto Loop**
 
    Hold and selecting pad, Activates a loop section of pre-determined pad beat lengths, which loops automatically."
-   ":hwlabel:`Hold` or :hwlabel:`Double Click`
+   ":hwlabel:`Hold` or :hwlabel:`2X PRESS`
 
-   Alternative", "**Cue Loop**
+   Alternative Mode
+
+   • (LED Fast Blink)", "**Cue Loop**
 
    Pressing the button jumps to the relative hot cue (1-8) and activates a loop (the same length as if the loop button was pressed).
 
@@ -275,9 +293,11 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
 
 .. csv-table::
    :header: "Mode", "Pad Function", "Shift (as Pad Action)"
-   :widths: 25 70 50
+   :widths: 40 50 50
 
-   "Normal", "**Fader Cuts (Pad 1-4)**
+   "Normal
+
+   • (LED Slow Blink)", "**Fader Cuts (Pad 1-4)**
 
 
    The pads will mute and unmute the deck's audio signal in a way that emulates crossfader movements toward that deck.
@@ -293,12 +313,18 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
    P7 – Rewind
 
    P8 – Fast Forward", "*Note: Shift + Pad Mode* buttons, puts decks into an alternate pad layer. In that layer shift can be further used as an pad action for the individual pads."
-   ":hwlabel:`SHIFT`", "(P1-4) Standard Fader Cuts
+   ":hwlabel:`SHIFT`
+
+   Secondary Mode
+
+   • (LED On)", "(P1-4) Standard Fader Cuts
 
    (P5-8) Extended Fader Cuts", ""
-   ":hwlabel:`Hold` or :hwlabel:`Double Click`
+   ":hwlabel:`Hold` or :hwlabel:`2X PRESS`
 
-   Alternative", "(P1-4) Standard Fader Cuts
+   Alternative Mode
+
+   • (LED Fast Blink)", "(P1-4) Standard Fader Cuts
 
    (P5) – Reverse Roll (Censor)
 
@@ -317,17 +343,25 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
 
 .. csv-table::
    :header: "Mode", "Pad Function", "Shift function"
-   :widths: 25 70 50
+   :widths: 40 50 50
 
-   "Normal", "(P1-8) Play Sample", "**Stop Playback/Load Sample**
+   "Normal
+
+   • (LED Slow Blink)", "(P1-8) Play Sample", "**Stop Playback/Load Sample**
 
    Hold and selecting pad, Stop Playback or Load Sample if the slot is empty."
-   ":hwlabel:`SHIFT`", "(P9-16) Play Sample", "**Stop Playback/Load Sample**
+   ":hwlabel:`SHIFT`
+
+   Secondary Mode
+
+   • (LED On)", "(P9-16) Play Sample", "**Stop Playback/Load Sample**
 
    Hold and selecting pad, Stop Playback or Load Sample if the slot is empty."
-   ":hwlabel:`Hold` or :hwlabel:`Double Click`
+   ":hwlabel:`Hold` or :hwlabel:`2X PRESS`
 
-   Alternative", "**Pitch Play (P1-4)**
+   Alternative Mode
+
+   • (LED Fast Blink)", "**Pitch Play (P1-4)**
 
    Play a single cue Point at variable pitches.
 
