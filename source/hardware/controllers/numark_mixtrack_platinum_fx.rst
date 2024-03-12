@@ -148,7 +148,7 @@ Control Mapping
 
    See :ref:`Performance Pad Modes <numark-platinum-fx-performance-pad-modes>`"
    "", ":hwlabel:`SHIFT` Roll", "Each pad triggers a roll of a different length"
-   "", ":hwlabel:`HOLD` or :hwlabel:`2X PRESS`
+   "", "Hold or double-press
 
    Fader Cuts 3rd set", "Fader Cuts Roll Rev, Key Tempo"
    "33", "Sampler 1-8 (Pad)", "With this Pad mode, each pad triggers a sample in the software.
