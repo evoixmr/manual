@@ -184,14 +184,14 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
 
    "Normal
 
-   • (LED Slow Blink)", "Hot Cue 1-8", "Auto Loop", "Fader Cuts
+   • (LED On)", "Hot Cue 1-8", "Auto Loop", "Fader Cuts
 
    Transport", "Sample 1-8"
    ":hwlabel:`SHIFT`
 
    Secondary Mode
 
-   • (LED On)", "Hot Cue 9-16", "Roll Loop", "Fader Cuts 8", "Sample 9-16"
+   • (LED Slow Blink)", "Hot Cue 9-16", "Roll Loop", "Fader Cuts 8", "Sample 9-16"
    ":hwlabel:`Hold` or :hwlabel:`2X PRESS`
 
    Alternative Mode
@@ -224,7 +224,7 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
 
    "Normal
 
-   • (LED Slow Blink)", "**Cue Pad 1-8**
+   • (LED On)", "**Cue Pad 1-8**
 
    Each pad assigns a Hot Cue Point, or returns the track to that Hot Cue Point. When a pad is unlit, you can assign a Hot Cue Point by pressing it at the desired point in your track.", "**Remove Cue**
 
@@ -233,7 +233,7 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
 
    Secondary Mode
 
-   • (LED On)", "**Cue 9-16**
+   • (LED Slow Blink)", "**Cue 9-16**
 
    Same as Normal mode", "**Remove Cue**
 
@@ -262,7 +262,7 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
 
    "Normal
 
-   • (LED Slow Blink)", "**Auto Loop8**
+   • (LED On)", "**Auto Loop8**
 
    Activates a loop section of pre-determined pad beat lengths, which loops automatically.", "**Roll Loop (Hold shift)**
 
@@ -271,7 +271,7 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
 
    Secondary Mode
 
-   • (LED On)", "**Roll Loop (Hold shift)**
+   • (LED Slow Blink)", "**Roll Loop (Hold shift)**
 
    Performs a standard Auto Loop, but when the loop is turned off the playback position is returned to the position where it would be, if it had not entered the loop.", "**Auto Loop**
 
@@ -297,7 +297,7 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
 
    "Normal
 
-   • (LED Slow Blink)", "**Fader Cuts (Pad 1-4)**
+   • (LED On)", "**Fader Cuts (Pad 1-4)**
 
 
    The pads will mute and unmute the deck's audio signal in a way that emulates crossfader movements toward that deck.
@@ -317,7 +317,7 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
 
    Secondary Mode
 
-   • (LED On)", "(P1-4) Standard Fader Cuts
+   • (LED Slow Blink)", "(P1-4) Standard Fader Cuts
 
    (P5-8) Extended Fader Cuts", ""
    ":hwlabel:`Hold` or :hwlabel:`2X PRESS`
@@ -347,14 +347,14 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
 
    "Normal
 
-   • (LED Slow Blink)", "(P1-8) Play Sample", "**Stop Playback/Load Sample**
+   • (LED On)", "(P1-8) Play Sample", "**Stop Playback/Load Sample**
 
    Hold and selecting pad, Stop Playback or Load Sample if the slot is empty."
    ":hwlabel:`SHIFT`
 
    Secondary Mode
 
-   • (LED On)", "(P9-16) Play Sample", "**Stop Playback/Load Sample**
+   • (LED Slow Blink)", "(P9-16) Play Sample", "**Stop Playback/Load Sample**
 
    Hold and selecting pad, Stop Playback or Load Sample if the slot is empty."
    ":hwlabel:`Hold` or :hwlabel:`2X PRESS`
