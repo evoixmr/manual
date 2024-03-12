@@ -155,7 +155,7 @@ Control Mapping
 
    See :ref:`Performance Pad Modes <numark-platinum-fx-performance-pad-modes>`"
    "", ":hwlabel:`SHIFT` Sampler 9-16", "Selects layer 2 of samples - Performance pads then trigger samples 9-16."
-   "", ":hwlabel:`HOLD` or :hwlabel:`2X PRESS`
+   "", "Hold or double-press
 
    Pitch Play", "Pitch Play"
    "34", "Performance Pads", "The pads are used to trigger loop points or samples depending on the Pad mode setting.
