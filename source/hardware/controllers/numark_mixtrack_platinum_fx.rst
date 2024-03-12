@@ -56,7 +56,7 @@ Control Mapping
    "3", "Mic Gain", "Adjusts the level for the microphone input."
    "4", "Cue Mix", "Adjusts the audio output to the headphones, mixing between the cue output and the master mix output."
    "5", "Cue Gain", "Adjusts the volume for headphone cueing."
-   "",  ":hwlabel:`SHIFT` Global Sample Volume Adjust", "Turning Cue Gain with Shift held globally adjusts volume on all samples"
+   "",  ":hwlabel:`SHIFT` Global Sample Volume Adjust", "Adjusts volume on all sample decks"
    "6", "Master Output LEDs", "Displays the audio level going to the Master Output."
    "7", "Load", "Press one of these buttons while a track is selected to assign it to Deck 1 or 2, respectively."
    "", ":hwlabel:`2X Press` Track Cloning", "Quickly double press a Load button to clone the track of the adjacent deck."
