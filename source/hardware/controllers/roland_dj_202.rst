@@ -129,6 +129,14 @@ Hot cue mode
 | stopped)                          |                                   |
 +-----------------------------------+-----------------------------------+
 
+Cue loop mode
+---------
+
+==================== ======================================================================================
+``Pad 1-8``          Define a hotcue 1 to 8 and Toggle a beatloop of length 2 as long as the pad is pressed
+``shift + Pad 5-8``  Redefine the hotcue 1 to 8 Manual loop controls (in, out, exit, on/off)
+==================== ======================================================================================
+
 Loop mode
 ---------
 
