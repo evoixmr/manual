@@ -120,14 +120,22 @@ Hot cue mode
 | ``Shift + Param+/-``              | Increment/decrement beat jump     |
 |                                   | distance                          |
 +-----------------------------------+-----------------------------------+
-| ``Pad 1-8``                       | Save/jump to hot-cue              |
+| ``Pad 1-8``                       | Save/jump to hot cue              |
 +-----------------------------------+-----------------------------------+
 | ``Shift + Pad 1-8`` (while        | Save hot-cue (overwrite existing) |
 | playing)                          |                                   |
 +-----------------------------------+-----------------------------------+
-| ``Shift + Pad 1-8`` (while        | Delete hot-cue                    |
+| ``Shift + Pad 1-8`` (while        | Delete hot cue                    |
 | stopped)                          |                                   |
 +-----------------------------------+-----------------------------------+
+
+Cue Loop mode
+-------------
+
+==================== =============================================================
+``Pad 1-8``          Define hot cue 1 to 8 and toggle beatloop of length 2 from it
+``Shift + Pad 1-8``  Redefine hot cue 1 to 8
+==================== =============================================================
 
 Loop mode
 ---------
