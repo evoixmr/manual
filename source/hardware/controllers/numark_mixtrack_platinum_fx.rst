@@ -295,7 +295,7 @@ Normal                                    | Primary              | **Auto Loop8*
 Function                                  Mode                   Pad Function                                                            Shift (as Pad Action)
 ========================================  =====================  ======================================================================  ========================================
 Normal                                    | Primary              | **Fader Cuts (Pad 1-4)**                                              *Note: Shift + Pad Mode* buttons, puts decks into an alternate pad layer. In that layer shift can be further used as an pad action for the individual pads.
-                                          |                      |       
+                                          |                      |
                                           | • (LED On)           | The pads will mute and unmute the deck's audio signal
                                           |                      in a way thatemulates crossfader movements toward that
                                                                  deck.
