@@ -106,11 +106,11 @@ No.      Control                                         Function
 |        :hwlabel:`2X Press` Track Cloning               Quickly double press a Load button to clone the track of the adjacent deck.
 |        :hwlabel:`SHIFT` Eject                          Removes the track from related deck.
 8        Level                                           Adjusts the pre-fader, pre-EQ audio level of the corresponding channel.
-9        High EQ                                         Controls the treble frequencies for the individual channels 
+9        High EQ                                         Controls the treble frequencies for the individual channels
 10       Mid EQ                                          Controls the mid-range frequencies for the individual channels.
 11       Low EQ                                          Controls the bass frequencies for the individual channels.
 12       Filter                                          Adjusts the amount of the filter effect. Turning the knob left and right will produce a lowpass filter and high-pass filter, respectively.
-13       Cue/PFL                                         Sends pre-fader audio to the cue channel forheadphone monitoring. 
+13       Cue/PFL                                         Sends pre-fader audio to the cue channel forheadphone monitoring.
 |        :hwlabel:`SHIFT` Slip Mode                      Toggles slip mode on/off for related deck.
 14       Channel Fader                                   Adjusts the volume of the individual channels in the software.
 15       Crossfader                                      Controls the blend between the two decks
@@ -165,7 +165,7 @@ No.      Control                                         Function
                                                          | See :ref:`Performance Pad Modes <numark-platinum-fx-performance-pad-modes>`
 |        :hwlabel:`SHIFT` Secondary Hot Cue              Hot Cue 9-16
 |        | :hwlabel:`HOLD` or :hwlabel:`2X PRESS`        Beat Jump
-         | Beat Jump 
+         | Beat Jump
 31       Auto Loop (Pad)                                 | With this Pad mode, each pad triggers an auto loop of a different length.
                                                          | See :ref:`Performance Pad Modes <numark-platinum-fx-performance-pad-modes>`
 |        :hwlabel:`SHIFT` Beat Jump                      Roll Loop
@@ -211,7 +211,7 @@ Normal                                    | Primary             Hot Cue 1-8     
                                           |
                                           | • (LED On)                                            Transport
 :hwlabel:`SHIFT`                          | Secondary Mode      Hot Cue 9-16     Roll Loop        Fader Cuts 8            Sample 9-16
-                                          | 
+                                          |
                                           | • (LED Slow Blink)
 :hwlabel:`Hold` or :hwlabel:`2X PRESS`    | Alternative Mode     Beat Jump        Cue Loop         Fader Cuts              Pitch Play
                                           |                                                        Roll Rev, Key Tempo
@@ -236,7 +236,7 @@ Pad 1            Pad 2            Pad 3            Pad 4
 **Cue Mode & Layers**
 
 ========================================  =====================  ======================================================================  ========================================
-Function                                  Mode                   Pad Function                                                             Shift function 
+Function                                  Mode                   Pad Function                                                             Shift function
 ========================================  =====================  ======================================================================  ========================================
 Normal                                    | Primary              | **Cue Pad 1-8**                                                        **Remove Cue**
                                           |                      |
@@ -244,11 +244,11 @@ Normal                                    | Primary              | **Cue Pad 1-8
                                                                  returns the track to that Hot Cue Point.
                                                                  When a pad is unlit, you can assign a
                                                                  Hot Cue Point by pressing it at the
-                                                                 desired point in your track.      
+                                                                 desired point in your track.
 :hwlabel:`SHIFT`                          | Secondary Mode       | **Cue 9-16**                                                           **Remove Cue**
                                           |                      |
                                           | • (LED Slow Blink)   | Same as Normal mode                                                    Hold and selecting pad, removes that cue point.
-:hwlabel:`Hold` or :hwlabel:`2X PRESS`    | Alternative Mode     | **Beat Jump**    
+:hwlabel:`Hold` or :hwlabel:`2X PRESS`    | Alternative Mode     | **Beat Jump**
                                           |                      |
                                           | • (LED Fast Blink)   | Lets you move forwards in a track in                                   **Reverse Beat Jump**
                                                                  predefined pad beat increments while
@@ -263,13 +263,13 @@ Normal                                    | Primary              | **Cue Pad 1-8
 **Auto Loop Mode & Layers**
 
 ========================================  =====================  ======================================================================  ========================================
-Function                                  Mode                   Pad Function                                                             Shift function 
+Function                                  Mode                   Pad Function                                                             Shift function
 ========================================  =====================  ======================================================================  ========================================
 Normal                                    | Primary              | **Auto Loop8**                                                        **Roll Loop (Hold shift)**
                                           |                      |
                                           | • (LED On)           | Activates a loop section of                                           Hold and selecting pad, performs a standard Auto Loop, but when the loop is turned off the playback position is returned to the position where it would be, if it had not entered the loop.
-                                                                 pre-determined pad beat lengths, which 
-                                                                 loops automatically.   
+                                                                 pre-determined pad beat lengths, which
+                                                                 loops automatically.
 :hwlabel:`SHIFT`                          | Secondary Mode       | **Roll Loop (Hold shift)**                                            **Auto Loop**
                                           |                      |
                                           | • (LED Slow Blink)   | Performs a standard Auto Loop, but                                    Hold and selecting pad, Activates a loop section of pre-determined pad beat lengths, which loops automatically.
@@ -280,7 +280,7 @@ Normal                                    | Primary              | **Auto Loop8*
 :hwlabel:`Hold` or :hwlabel:`2X PRESS`    | Alternative Mode     | **Cue Loop**
                                           |                      |
                                           | • (LED Fast Blink)   | Pressing the button jumps to the                                      **Cue Loop Roll & Slip**
-                                                                 relative hot cue (1-8) and activates a 
+                                                                 relative hot cue (1-8) and activates a
                                                                  loop (the same length as if the loop                                    Hold and selecting pad, additionally activates slip mode, and does a roll at the cue point, then releasing the button, resumes where it would have been.
                                                                  button was pressed).
                                           |
@@ -295,8 +295,8 @@ Normal                                    | Primary              | **Auto Loop8*
 Function                                  Mode                   Pad Function                                                            Shift (as Pad Action)
 ========================================  =====================  ======================================================================  ========================================
 Normal                                    | Primary              | **Fader Cuts (Pad 1-4)**                                              *Note: Shift + Pad Mode* buttons, puts decks into an alternate pad layer. In that layer shift can be further used as an pad action for the individual pads.
-                                          |                      |         
-                                          | • (LED On)           | The pads will mute and unmute the deck's audio signal 
+                                          |                      |       
+                                          | • (LED On)           | The pads will mute and unmute the deck's audio signal
                                           |                      in a way thatemulates crossfader movements toward that
                                                                  deck.
                                           |
@@ -342,7 +342,7 @@ Normal                                    | Primary              | (P1-8) Play S
                                           | • (LED Fast Blink)   | Play a single cue Point at variable pitches.                          Hold and selecting SAMPLE, changes Range 3 ranges.
                                           |                      |
                                           |                      |                                                                       **Change cue**
-                                          |                      | *Note:* 
+                                          |                      | *Note:*
                                           |                      |  • Only One Cue at a time                                             Hold and selecting other cue point on Cue Pad changes cue.
                                           |                      |
                                           |                      |  • Deleting cue point in Pitch Play Mode not possible.
