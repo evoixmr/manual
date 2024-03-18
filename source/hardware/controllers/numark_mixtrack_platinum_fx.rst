@@ -339,10 +339,10 @@ Normal                                    | Primary              | (P1-8) Play S
                                           | • (LED Slow Blink)   |                                                                       Hold and selecting pad, Stop Playback or Load Sample if the slot is empty.
 :hwlabel:`Hold` or :hwlabel:`2X PRESS`    | Alternative Mode     | **Pitch Play (P1-4)**                                                 **Change Range**
                                           |                      |
-                                          | • (LED Fast Blink)   | Play a single cue Point at variable pitches.                          Hold and selecting SAMPLE, changes Range 3 ranges.               
+                                          | • (LED Fast Blink)   | Play a single cue Point at variable pitches.                          Hold and selecting SAMPLE, changes Range 3 ranges.
                                           |                      |
                                           |                      |                                                                       **Change cue**
-                                          |                      | *Note:* 
+                                          |                      | *Note:*
                                           |                      |  • Only One Cue at a time                                             Hold and selecting other cue point on Cue Pad changes cue.
                                           |                      |
                                           |                      |  • Deleting cue point in Pitch Play Mode not possible.
