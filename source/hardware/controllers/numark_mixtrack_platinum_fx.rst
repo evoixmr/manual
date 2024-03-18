@@ -269,15 +269,15 @@ Normal                                    | Primary              | **Fader Cuts 
 :hwlabel:`SHIFT`                          | Secondary Mode       | (P1-4) Standard Fader Cuts
                                           |                      |
                                           | • (LED Slow Blink)   | (P5-8) Extended Fader Cuts
-:hwlabel:`Hold` or :hwlabel:`2X PRESS`    | Alternative Mode     | (P1-4) Standard Fader Cuts                                            (P5-8) Various Fader Cuts
-                                          |                      |
-                                          | • (LED Fast Blink)   | (P5) – Reverse Roll (Censor)
-                                          |                      |
-                                          |                      | (P6) – Reverse Toggle (Censor)
-                                          |                      |
-                                          |                      | (P7) – Key sync to deck                                               (P7) – Reset Key sync
-                                          |                      |
-                                          |                      | (P8) – Tap Tempo.                                                     (P8) – Reset Tap Tempo.
+:hwlabel:`Hold` or :hwlabel:`2X PRESS`    | Alternative Mode     | (P1-4) Standard Fader Cuts                                            | (P5-8) Various Fader Cuts
+                                          |                      |                                                                       |
+                                          | • (LED Fast Blink)   | (P5) – Reverse Roll (Censor)                                          |
+                                          |                      |                                                                       |
+                                          |                      | (P6) – Reverse Toggle (Censor)                                        |
+                                          |                      |                                                                       |
+                                          |                      | (P7) – Key sync to deck                                               | (P7) – Reset Key sync
+                                          |                      |                                                                       |
+                                          |                      | (P8) – Tap Tempo.                                                     | (P8) – Reset Tap Tempo.
 ========================================  =====================  ======================================================================  ========================================
 ..
 
