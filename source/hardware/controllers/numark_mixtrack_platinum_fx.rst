@@ -191,7 +191,6 @@ No.      Control                                         Function
 |        :hwlabel:`SHIFT` Loop Out (Manual Loop)         Set the Loop Out point for a manual loop.
 =======  ==============================================  ===============================================================
 
-
 ..
 
 .. _numark-platinum-fx-performance-pad-modes:
@@ -217,6 +216,7 @@ Normal                                    | Primary             Hot Cue 1-8     
                                           |                                                        Roll Rev, Key Tempo
                                           | • (LED Fast Blink)
 ========================================  ====================  ===============  ===============  ======================  ===============
+
 ..
 
 **NOTE:** Within these modes initiated by SHIFT, the SHIFT button can be further used as an action or function for the individual pads.
@@ -245,6 +245,7 @@ Normal                                    | Primary              | **Cue Pad 1-8
                                                                  When a pad is unlit, you can assign a
                                                                  Hot Cue Point by pressing it at the
                                                                  desired point in your track.
+
 :hwlabel:`SHIFT`                          | Secondary Mode       | **Cue 9-16**                                                           **Remove Cue**
                                           |                      |
                                           | • (LED Slow Blink)   | Same as Normal mode                                                    Hold and selecting pad, removes that cue point.
@@ -277,16 +278,19 @@ Normal                                    | Primary              | **Auto Loop8*
                                                                  position is returned to the position
                                                                  where it would be, if it had not entered
                                                                  the loop.
+
 :hwlabel:`Hold` or :hwlabel:`2X PRESS`    | Alternative Mode     | **Cue Loop**
                                           |                      |
                                           | • (LED Fast Blink)   | Pressing the button jumps to the                                      **Cue Loop Roll & Slip**
                                                                  relative hot cue (1-8) and activates a
                                                                  loop (the same length as if the loop                                    Hold and selecting pad, additionally activates slip mode, and does a roll at the cue point, then releasing the button, resumes where it would have been.
                                                                  button was pressed).
+
                                           |
                                           |                      | TIP: Adjust loop length with dedicated
                                                                  loop controls half or double.
 ========================================  =====================  ======================================================================  ========================================
+
 ..
 
 **Fader Cuts Mode & Layers**
@@ -295,6 +299,7 @@ Normal                                    | Primary              | **Auto Loop8*
 Function                                  Mode                   Pad Function                                                            Shift (as Pad Action)
 ========================================  =====================  ======================================================================  ========================================
 Normal                                    | Primary              | **Fader Cuts (Pad 1-4)**                                              *Note: Shift + Pad Mode* buttons, puts decks into an alternate pad layer. In that layer shift can be further used as an pad action for the individual pads.
+
                                           |                      |
                                           | • (LED On)           | The pads will mute and unmute the deck's audio signal
                                           |                      in a way thatemulates crossfader movements toward that
@@ -314,16 +319,17 @@ Normal                                    | Primary              | **Fader Cuts 
 :hwlabel:`SHIFT`                          | Secondary Mode       | (P1-4) Standard Fader Cuts
                                           |                      |
                                           | • (LED Slow Blink)   | (P5-8) Extended Fader Cuts
-:hwlabel:`Hold` or :hwlabel:`2X PRESS`    | Alternative Mode     | (P1-4) Standard Fader Cuts                                            (P5-8) Various Fader Cuts
-                                          |                      |
-                                          | • (LED Fast Blink)   | (P5) – Reverse Roll (Censor)
-                                          |                      |
-                                          |                      | (P6) – Reverse Toggle (Censor)
-                                          |                      |
-                                          |                      | (P7) – Key sync to deck                                               (P7) – Reset Key sync
-                                          |                      |
-                                          |                      | (P8) – Tap Tempo.                                                     (P8) – Reset Tap Tempo.
+:hwlabel:`Hold` or :hwlabel:`2X PRESS`    | Alternative Mode     | (P1-4) Standard Fader Cuts                                            | (P5-8) Various Fader Cuts
+                                          |                      |                                                                       |
+                                          | • (LED Fast Blink)   | (P5) – Reverse Roll (Censor)                                          |
+                                          |                      |                                                                       |
+                                          |                      | (P6) – Reverse Toggle (Censor)                                        |
+                                          |                      |                                                                       |
+                                          |                      | (P7) – Key sync to deck                                               | (P7) – Reset Key sync
+                                          |                      |                                                                       |
+                                          |                      | (P8) – Tap Tempo.                                                     | (P8) – Reset Tap Tempo.
 ========================================  =====================  ======================================================================  ========================================
+
 ..
 
 **Sample Mode & Layers**
