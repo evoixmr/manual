@@ -43,6 +43,51 @@ Control Mapping
    :figclass: pretty-figures
 
 
+Numark Mixtrack Platinum FX
+==============================
+
+.. figure:: ../../_static/controllers/numark_mixtrack_platinum_fx_top.jpg
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Numark Mixtrack Playinum FX (schematic view)
+   :figclass: pretty-figures
+
+
+The Mixtrack Platinum FX is a 24-bit 4-deck digital DJ controller with a dedicated software effects section, large 6-inch capacitive-touch jog wheels and 16-multifunctional performance pads. Its stand out feature  is the LCD displays integrated into the jog wheels, apart from that it shares the layout of the Mixtrack Pro FX.
+
+It is a USB Audio and MIDI Class compliant device and works with Linux, macOS, and Windows.
+
+- `Manufacturer's product page <https://www.numark.com/product/mixtrack-platinum-fx>`__
+- `Forum thread <https://mixxx.discourse.group/t/numark-mixtrack-platinum-fx-mapping/19985/215>`__
+
+Firmware
+--------
+
+The mapping requires the following Firmware for all enabled features to work for Mixxx 2.4
+
+-  `Firmware Update v1.10 MAC <https://cdn.inmusicbrands.com/Numark/MixtrackPlatinumFX/Mixtrack%20Platinum%20FX%20Firmware%201.10%20Mac.zip>`_
+-  `Firmware Update v1.10 WIN <https://cdn.inmusicbrands.com/Numark/MixtrackPlatinumFX/Mixtrack%20Platinum%20FX%20Firmware%201.10%20Win.zip>`_
+- Linux users need to install firmware using Windows or MAC.
+
+Audio Interface
+---------------
+
+Configure Mixxx' Main output for channels 1-2 and Headphones output for Channels 3-4.
+
+The microphone input on this controller is not available to the computer through the controller's audio interface. It is mixed with the master output in hardware, so this controller's audio interface is not suitable for broadcasting or recording the inputs. If you want to use the controller for broadcasting or recording, a separate audio interface with a microphone input is suggested.
+
+Control Mapping
+---------------
+
+.. figure:: ../../_static/controllers/numark_mixtrack_platinum_fx.svg
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Numark Mixtrack Playinum FX (schematic view)
+   :figclass: pretty-figures
+
+
 =======  ==============================================  ===============================================================
 No.      Control                                         Function
 =======  ==============================================  ===============================================================
