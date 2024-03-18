@@ -217,6 +217,7 @@ Normal                                    | Primary             Hot Cue 1-8     
                                           |                                                        Roll Rev, Key Tempo
                                           | • (LED Fast Blink)
 ========================================  ====================  ===============  ===============  ======================  ===============
+
 ..
 
 **NOTE:** Within these modes initiated by SHIFT, the SHIFT button can be further used as an action or function for the individual pads.
@@ -287,6 +288,7 @@ Normal                                    | Primary              | **Auto Loop8*
                                           |                      | TIP: Adjust loop length with dedicated
                                                                  loop controls half or double.
 ========================================  =====================  ======================================================================  ========================================
+
 ..
 
 **Fader Cuts Mode & Layers**
@@ -324,6 +326,7 @@ Normal                                    | Primary              | **Fader Cuts 
                                           |                      |
                                           |                      | (P8) – Tap Tempo.                                                     (P8) – Reset Tap Tempo.
 ========================================  =====================  ======================================================================  ========================================
+
 ..
 
 **Sample Mode & Layers**
