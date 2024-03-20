@@ -96,7 +96,7 @@ No.      Control                                         Function
                                                          | Note: Reset the selected deck. See :ref:`Tapping Logic <numark-platinum-fx-tapping-logic>`
 24       Platter/Jog Wheel                               This capacitive, touch-sensitive jog wheel controls the audio when the wheel is touched and moved. When the Scratch button is not active, use the jog wheel to bend the pitch of the track. When the Scratch button is active, use the jog wheel to grab and move the audio, scratching the track as you would with a vinyl record. You can also grab the non-touch-sensitive outer wheel, to bend the pitch of the track.
 |        :hwlabel:`SHIFT` Scrub Scroll                   Scrub Scrolling while holding Jog wheel.
-24       Deck Display                                    | **1. Active Deck:** Indicates the currently active deck.
+25       Deck Display                                    | **1. Active Deck:** Indicates the currently active deck.
                                                          | **2. Platter Position:** Displays the current track position.
                                                          | **3. BPM:** Displays the current BPM for the selected track.
                                                          | **4. Keylock:** This icon illuminates when keylock is active for the current deck.
@@ -105,44 +105,44 @@ No.      Control                                         Function
                                                          | **7. Pitch Adjust:** Indicates the direction to move Pitch Fader to match the current track's BPM with the track on the opposite deck.
                                                          | **8. Time Remaining:** Displays the time elapsed or time remaining for the current track. (Time elapsed only implemented in current mapping).
                                                          | **9. Time Bars:** Provides visual reference to time remaining on the selected song. When the song is almost over these segments will flash to give a warning.
-25       Scratch                                         Press this button to turn on the scratch feature for the jog wheel.
+26       Scratch                                         Press this button to turn on the scratch feature for the jog wheel.
 |        :hwlabel:`SHIFT` Deck Select                    Switch between decks 1 & 3 or 2 & 4 for 4 deck mixing
-26       Shift                                           Allows multiple control commands to be triggered when pressed first along with other buttons.
-27       Sync (tap)                                      Automatically match the corresponding Deck's tempo with the opposite Deck's tempo.
+27       Shift                                           Allows multiple control commands to be triggered when pressed first along with other buttons.
+28       Sync (tap)                                      Automatically match the corresponding Deck's tempo with the opposite Deck's tempo.
 |        Lock Sync (hold)                                Hold for at least one second to lock sync. Tap again to release sync lock.
 |        :hwlabel:`SHIFT` Quantize                       Toggle quantize on/off.
-28       Cue (tap)                                       Sets and recalls the main Cue point in the current track
+29       Cue (tap)                                       Sets and recalls the main Cue point in the current track
 |        Cue Play (hold)                                 Play from the Cue point for as long as the button is held down and return to the cue point once it is released
 |        :hwlabel:`SHIFT` Cue Track Start                Return cue head to beginning of track.
-29       Play/Pause                                      Starts and suspends playback.
+30       Play/Pause                                      Starts and suspends playback.
 |        :hwlabel:`SHIFT` Beat Grid Adjust               Adjust Beat Grid, Hold shift and this button to align closest beat to the current play position.
-30       Cue (Pad)                                       | With this Pad mode, each pad assigns a Hot Cue Point, or returns the track to that Hot Cue Point. When a pad is unlit, you can assign a Hot Cue Point by pressing it at the desired point in your track.
+31       Cue (Pad)                                       | With this Pad mode, each pad assigns a Hot Cue Point, or returns the track to that Hot Cue Point. When a pad is unlit, you can assign a Hot Cue Point by pressing it at the desired point in your track.
                                                          | See :ref:`Performance Pad Modes <numark-platinum-fx-performance-pad-modes>`
 |        :hwlabel:`SHIFT` Secondary Hot Cue              Hot Cue 9-16
 |        | :hwlabel:`HOLD` or :hwlabel:`2X PRESS`        Beat Jump
          | Beat Jump
-31       Auto Loop (Pad)                                 | With this Pad mode, each pad triggers an auto loop of a different length.
+32       Auto Loop (Pad)                                 | With this Pad mode, each pad triggers an auto loop of a different length.
                                                          | See :ref:`Performance Pad Modes <numark-platinum-fx-performance-pad-modes>`
 |        :hwlabel:`SHIFT` Beat Jump                      Roll Loop
 |        | :hwlabel:`HOLD` or :hwlabel:`2X PRESS`        Cue Loop
          | Beat Jump
-32       Fader Cuts (Pad)                                | With this Pad mode, the top 4 performance pads are used to perform transform effects for cuts on scratching.
+33       Fader Cuts (Pad)                                | With this Pad mode, the top 4 performance pads are used to perform transform effects for cuts on scratching.
                                                          | See :ref:`Performance Pad Modes <numark-platinum-fx-performance-pad-modes>`
 |        :hwlabel:`SHIFT` Roll                           Each pad triggers a roll of a different length
 |        | Hold or double-press                          Fader Cuts Roll Rev, Key Tempo
          | Fader Cuts 3rd set
-33       Sampler 1-8 (Pad)                               | With this Pad mode, each pad triggers a sample in the software.
+34       Sampler 1-8 (Pad)                               | With this Pad mode, each pad triggers a sample in the software.
                                                          | See :ref:`Performance Pad Modes <numark-platinum-fx-performance-pad-modes>`
 |        :hwlabel:`SHIFT` Sampler 9-16                   Selects layer 2 of samples - Performance pads then trigger samples 9-16.
 |        | Hold or double-press                          Pitch Play
          | Pitch Play
-34       Performance Pads                                | The pads are used to trigger loop points or samples depending on the Pad mode setting.
+35       Performance Pads                                | The pads are used to trigger loop points or samples depending on the Pad mode setting.
                                                          | See :ref:`Performance Pad Modes <numark-platinum-fx-performance-pad-modes>`
-35       Loop On/Off                                     Press to activate auto loop on/off.
+36       Loop On/Off                                     Press to activate auto loop on/off.
 |        :hwlabel:`SHIFT` Re-Loop                        Triggers a re-loop
-36       Loop 1/2                                        | Press this button when a loop is active to decrease the loop size by half.
+37       Loop 1/2                                        | Press this button when a loop is active to decrease the loop size by half.
 |        :hwlabel:`SHIFT` Loop In (Manual Loop)          Set the Loop In point for a manual loop.
-37       Loop x2                                         Press this button when a loop is active to double the loop size.
+38       Loop x2                                         Press this button when a loop is active to double the loop size.
 |        :hwlabel:`SHIFT` Loop Out (Manual Loop)         Set the Loop Out point for a manual loop.
 =======  ==============================================  ===============================================================
 
