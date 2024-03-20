@@ -1,51 +1,6 @@
 Numark Mixtrack Platinum FX
 ==============================
 
-.. figure:: ../../_static/controllers/numark_mixtrack_platinum_fx_toprow.png
-   :align: center
-   :width: 100%
-   :figwidth: 100%
-   :alt: Numark Mixtrack Playinum FX (schematic view)
-   :figclass: pretty-figures
-
-
-The Mixtrack Platinum FX is a 24-bit 4-deck digital DJ controller with a dedicated software effects section, large 6-inch capacitive-touch jog wheels and 16-multifunctional performance pads. Its stand out feature  is the LCD displays integrated into the jog wheels, apart from that it shares the layout of the Mixtrack Pro FX.
-
-It is a USB Audio and MIDI Class compliant device and works with Linux, macOS, and Windows.
-
-- `Manufacturer's product page <https://www.numark.com/product/mixtrack-platinum-fx>`__
-- `Forum thread <https://mixxx.discourse.group/t/numark-mixtrack-platinum-fx-mapping/19985/215>`__
-
-Firmware
---------
-
-The mapping requires the following Firmware for all enabled features to work for Mixxx 2.4
-
--  `Firmware Update v1.10 MAC <https://cdn.inmusicbrands.com/Numark/MixtrackPlatinumFX/Mixtrack%20Platinum%20FX%20Firmware%201.10%20Mac.zip>`_
--  `Firmware Update v1.10 WIN <https://cdn.inmusicbrands.com/Numark/MixtrackPlatinumFX/Mixtrack%20Platinum%20FX%20Firmware%201.10%20Win.zip>`_
-- Linux users need to install firmware using Windows or MAC.
-
-Audio Interface
----------------
-
-Configure Mixxx' Main output for channels 1-2 and Headphones output for Channels 3-4.
-
-The microphone input on this controller is not available to the computer through the controller's audio interface. It is mixed with the master output in hardware, so this controller's audio interface is not suitable for broadcasting or recording the inputs. If you want to use the controller for broadcasting or recording, a separate audio interface with a microphone input is suggested.
-
-Control Mapping
----------------
-
-.. figure:: ../../_static/controllers/numark_mixtrack_platinum_fx.png
-   :align: center
-   :width: 100%
-   :figwidth: 100%
-   :alt: Numark Mixtrack Playinum FX (schematic view)
-   :figclass: pretty-figures
-
-
-Numark Mixtrack Platinum FX
-==============================
-
 .. figure:: ../../_static/controllers/numark_mixtrack_platinum_fx_top.jpg
    :align: center
    :width: 100%
@@ -106,11 +61,11 @@ No.      Control                                         Function
 |        :hwlabel:`2X Press` Track Cloning               Quickly double press a Load button to clone the track of the adjacent deck.
 |        :hwlabel:`SHIFT` Eject                          Removes the track from related deck.
 8        Level                                           Adjusts the pre-fader, pre-EQ audio level of the corresponding channel.
-9        High EQ                                         Controls the treble frequencies for the individual channels
+9        High EQ                                         Controls the treble frequencies for the individual channels 
 10       Mid EQ                                          Controls the mid-range frequencies for the individual channels.
 11       Low EQ                                          Controls the bass frequencies for the individual channels.
 12       Filter                                          Adjusts the amount of the filter effect. Turning the knob left and right will produce a lowpass filter and high-pass filter, respectively.
-13       Cue/PFL                                         Sends pre-fader audio to the cue channel forheadphone monitoring.
+13       Cue/PFL                                         Sends pre-fader audio to the cue channel forheadphone monitoring. 
 |        :hwlabel:`SHIFT` Slip Mode                      Toggles slip mode on/off for related deck.
 14       Channel Fader                                   Adjusts the volume of the individual channels in the software.
 15       Crossfader                                      Controls the blend between the two decks
@@ -165,7 +120,7 @@ No.      Control                                         Function
                                                          | See :ref:`Performance Pad Modes <numark-platinum-fx-performance-pad-modes>`
 |        :hwlabel:`SHIFT` Secondary Hot Cue              Hot Cue 9-16
 |        | :hwlabel:`HOLD` or :hwlabel:`2X PRESS`        Beat Jump
-         | Beat Jump
+         | Beat Jump 
 31       Auto Loop (Pad)                                 | With this Pad mode, each pad triggers an auto loop of a different length.
                                                          | See :ref:`Performance Pad Modes <numark-platinum-fx-performance-pad-modes>`
 |        :hwlabel:`SHIFT` Beat Jump                      Roll Loop
@@ -207,10 +162,10 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
 Function                                  Mode                  Cue              Auto Loop        Fader Cuts              Samples
 ========================================  ====================  ===============  ===============  ======================  ===============
 Normal                                    | Primary             Hot Cue 1-8      Auto Loop        Fader Cuts              Sample 1-8
-                                          |
+                                          |                                                                           
                                           | • (LED On)                                            Transport
 :hwlabel:`SHIFT`                          | Secondary Mode      Hot Cue 9-16     Roll Loop        Fader Cuts 8            Sample 9-16
-                                          |
+                                          | 
                                           | • (LED Slow Blink)
 :hwlabel:`Hold` or :hwlabel:`2X PRESS`    | Alternative Mode     Beat Jump        Cue Loop         Fader Cuts              Pitch Play
                                           |                                                        Roll Rev, Key Tempo
