@@ -61,11 +61,11 @@ No.      Control                                         Function
 |        :hwlabel:`2X Press` Track Cloning               Quickly double press a Load button to clone the track of the adjacent deck.
 |        :hwlabel:`SHIFT` Eject                          Removes the track from related deck.
 8        Level                                           Adjusts the pre-fader, pre-EQ audio level of the corresponding channel.
-9        High EQ                                         Controls the treble frequencies for the individual channels 
+9        High EQ                                         Controls the treble frequencies for the individual channels
 10       Mid EQ                                          Controls the mid-range frequencies for the individual channels.
 11       Low EQ                                          Controls the bass frequencies for the individual channels.
 12       Filter                                          Adjusts the amount of the filter effect. Turning the knob left and right will produce a lowpass filter and high-pass filter, respectively.
-13       Cue/PFL                                         Sends pre-fader audio to the cue channel forheadphone monitoring. 
+13       Cue/PFL                                         Sends pre-fader audio to the cue channel forheadphone monitoring.
 |        :hwlabel:`SHIFT` Slip Mode                      Toggles slip mode on/off for related deck.
 14       Channel Fader                                   Adjusts the volume of the individual channels in the software.
 15       Crossfader                                      Controls the blend between the two decks
@@ -120,7 +120,7 @@ No.      Control                                         Function
                                                          | See :ref:`Performance Pad Modes <numark-platinum-fx-performance-pad-modes>`
 |        :hwlabel:`SHIFT` Secondary Hot Cue              Hot Cue 9-16
 |        | :hwlabel:`HOLD` or :hwlabel:`2X PRESS`        Beat Jump
-         | Beat Jump 
+         | Beat Jump
 31       Auto Loop (Pad)                                 | With this Pad mode, each pad triggers an auto loop of a different length.
                                                          | See :ref:`Performance Pad Modes <numark-platinum-fx-performance-pad-modes>`
 |        :hwlabel:`SHIFT` Beat Jump                      Roll Loop
@@ -162,10 +162,10 @@ Further to the NORMAL Pad Mode, 2 additional layers of functionality, SHIFT & AL
 Function                                  Mode                  Cue              Auto Loop        Fader Cuts              Samples
 ========================================  ====================  ===============  ===============  ======================  ===============
 Normal                                    | Primary             Hot Cue 1-8      Auto Loop        Fader Cuts              Sample 1-8
-                                          |                                                                           
+                                          |
                                           | • (LED On)                                            Transport
 :hwlabel:`SHIFT`                          | Secondary Mode      Hot Cue 9-16     Roll Loop        Fader Cuts 8            Sample 9-16
-                                          | 
+                                          |
                                           | • (LED Slow Blink)
 :hwlabel:`Hold` or :hwlabel:`2X PRESS`    | Alternative Mode     Beat Jump        Cue Loop         Fader Cuts              Pitch Play
                                           |                                                        Roll Rev, Key Tempo
