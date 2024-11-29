@@ -69,11 +69,11 @@ No.      Control                                         Function
 |        :hwlabel:`SHIFT` Slip Mode                      Toggles slip mode on/off for related deck.
 14       Channel Fader                                   Adjusts the volume of the individual channels in the software.
 15       Crossfader                                      Controls the blend between the two decks
-16       Pitch Fader                                     This controls the speed of the music. Moving towards the + will speed the music up, while moving towards the – will slow it down.
-17       Pitch Bend Down                                 Press and hold to momentarily reduce the speed of the track.
+16       Pitch Bend Down                                 Press and hold to momentarily reduce the speed of the track.
 |        :hwlabel:`SHIFT` Pitch Range                    Hold Shift and this djust Pitch Range
-18       Pitch Bend Up                                   Press and hold to momentarily reduce the speed of the track.
+17       Pitch Bend Up                                   Press and hold to momentarily reduce the speed of the track.
 |        :hwlabel:`SHIFT` Keylock                        Hold Shift and this button to adjust Keylock.
+18       Pitch Fader                                     This controls the speed of the music. Moving towards the + will speed the music up, while moving towards the – will slow it down.
 19       Beats Multiplier                                Increases and decreases the rate of the effects to the beat. When using a time-based effect, this knob adjusts its time division.
 |        :hwlabel:`SHIFT` FX Macros                      Selects and controls FX Macros parameters.
 20       FX Wet/Dry Knob                                 Turn this knob to adjust the wet/dry mix of the effects.
