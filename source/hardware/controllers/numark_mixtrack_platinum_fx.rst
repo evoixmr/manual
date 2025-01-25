@@ -84,7 +84,7 @@ No.      Control                                         Function
                                                          | • Echo
                                                          | • Reverb
                                                          | • Phaser
-                                                         | FX Buttons will need tp be assigned on the mixxx `Effects <https://manual.mixxx.org/2.5/en/chapters/effects#effects>`__ option on the main interface.
+                                                         | FX Buttons will need to be assigned with mixxx `Effects <https://manual.mixxx.org/2.5/en/chapters/effects#effects>`__ selectors in the graphical interface.
 |        :hwlabel:`SHIFT` Multiple FX (at once)          Hold shift and select/unselect multiple FX buttons to be active at once.
 22       FX Toggle On / Off:                             Push up on the toggle switch to latch (lock) the FX in the on position. Push down on the toggle switch to turn the FX on momentarily. When the toggle switch is in the middle position, the FX will be off.
 23       Tap BPM                                         | Press this a minimum of 4 times to manually enter a new BPM. The software will ignore the track's BPM and follow your manually entered tempo.
