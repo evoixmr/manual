@@ -1,19 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011-2021, The Mixxx Development Team
+# Copyright (C) 2011-2024, The Mixxx Development Team
 # This file is distributed under the same license as the Mixxx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Daniel Schürmann <daschuer@mixxx.org>, 2022
+# Rafael French <rafael.venan@free.fr>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Mixxx 2.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-05 23:45+0200\n"
+"POT-Creation-Date: 2024-03-25 19:19+0100\n"
 "PO-Revision-Date: 2022-09-05 05:38+0000\n"
-"Last-Translator: Daniel Schürmann <daschuer@mixxx.org>, 2022\n"
+"Last-Translator: Rafael French <rafael.venan@free.fr>, 2024\n"
 "Language-Team: French (https://app.transifex.com/mixxx-dj-software/teams/7664/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -228,13 +229,13 @@ msgid ""
 msgstr ""
 "Ce chapitre présente quelques exemples de configurations matérielles avec "
 "des instructions sur la façon de configurer Mixxx pour fonctionner avec "
-"elles."
+"celles-ci."
 
 #: ../../chapters/example_setups.rst:10
 msgid ""
 ":ref:`hardware`: background information about different types of equipment."
 msgstr ""
-":ref:`hardware`: informations générales sur les différents types "
+":ref:`hardware` : informations générales sur les différents types "
 "d'équipements."
 
 #: ../../chapters/example_setups.rst:12
@@ -242,15 +243,15 @@ msgid ""
 ":ref:`getting-started-sound-io`: details about each available input and "
 "output option."
 msgstr ""
-":ref:`getting-started-sound-io`: des détails sur chaque option d'entrée et "
+":ref:`getting-started-sound-io` : des détails sur chaque option d'entrée et "
 "de sortie disponible."
 
 #: ../../chapters/example_setups.rst:14
 msgid ""
 ":ref:`microphones`: details for configuring Mixxx to work with microphones."
 msgstr ""
-":ref:`microphones`: détails pour configurer Mixxx pour fonctionner avec des "
-"microphones."
+":ref:`microphones` : détails pour configurer Mixxx pour fonctionner avec des"
+" microphones."
 
 #: ../../chapters/example_setups.rst:16
 msgid ""
@@ -258,6 +259,9 @@ msgid ""
 "Compatibility>`_ lists specific devices with information about their prices,"
 " features, and compatibility with Mixxx."
 msgstr ""
+"Le `DJ Hardware Guide <https://github.com/mixxxdj/mixxx/wiki/Hardware-"
+"Compatibility>`_ répertorie les appareils spécifiques avec des informations "
+"sur leurs prix, leurs fonctionnalités et leur compatibilité avec Mixxx."
 
 #: ../../chapters/example_setups.rst:24
 msgid "Computer Only"
@@ -268,9 +272,9 @@ msgid ""
 "The built-in audio interface on most computers comes with a single stereo "
 "line-out and a microphone input. This can be set up with Mixxx in two ways:"
 msgstr ""
-"L'interface audio intégrée sur la plupart des ordinateurs est livrée avec "
+"L'interface audio intégrée dans la plupart des ordinateurs est livrée avec "
 "une seule sortie stéréo et une entrée microphone. Cela peut être configuré "
-"avec Mixxx de deux manières:"
+"avec Mixxx de deux manières :"
 
 #: ../../chapters/example_setups.rst:29
 msgid "Practicing Mixing / Broadcasting"
@@ -287,20 +291,30 @@ msgid ""
 "output. However, it can be used by radio DJs who only need to send the main "
 "mix to a broadcast audience."
 msgstr ""
+"Cette configuration peut être utilisée avec une seule sortie audio pour "
+"haut-parleurs ou casque, pour pratiquer le DJé sans investir dans aucun "
+"équipement autre qu'un ordinateur et un ensemble de haut-parleurs ou un "
+"casque. Avec cette configuration, utilisez le :ref:`potentiomètre "
+"pré/principal <interface-head-main>` pour basculer entre le mixage principal"
+" et le signal :term:`PFL`. Cette configuration ne peut pas être utilisée "
+"pour jouer devant un public en direct car le mixage principal n'est pas "
+"envoyé vers une sortie d'interface audio. Cependant, il peut être utilisé "
+"par les DJ de radio qui n'ont besoin que d'envoyer le mix principal à un "
+"public de diffusion."
 
 #: ../../chapters/example_setups.rst:39 ../../chapters/example_setups.rst:69
 #: ../../chapters/example_setups.rst:112 ../../chapters/example_setups.rst:147
 #: ../../chapters/example_setups.rst:156 ../../chapters/example_setups.rst:190
 #: ../../chapters/example_setups.rst:215
 msgid "Open :menuselection:`Preferences --> Sound Hardware`"
-msgstr "Ouvrez :menuselection:`Préférences --> Matériel Sonore`"
+msgstr "Ouvrer :menuselection:`Préférences --> Matériel Sonore`"
 
 #: ../../chapters/example_setups.rst:40 ../../chapters/example_setups.rst:70
 #: ../../chapters/example_setups.rst:113 ../../chapters/example_setups.rst:148
 #: ../../chapters/example_setups.rst:157 ../../chapters/example_setups.rst:191
 #: ../../chapters/example_setups.rst:216
 msgid "Select the :guilabel:`Output` tab"
-msgstr "Sélectionnez l'onglet :guilabel:`Sortie`"
+msgstr "Sélectionner l'onglet :guilabel:`Sortie`"
 
 #: ../../chapters/example_setups.rst:41
 msgid ""
@@ -373,6 +387,8 @@ msgid ""
 "From the :guilabel:`Main` drop-down menu, select your built-in audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
+"Dans le menu déroulant :guilabel:`Principal`, sélectionner votre interface "
+"audio intégrée, puis :guilabel:`Canaux 1-2`"
 
 #: ../../chapters/example_setups.rst:73
 msgid ""
@@ -393,11 +409,11 @@ msgid ""
 "jack of a laptop or other computer. This cable divides the stereo output "
 "from a single jack into two separate mono signals."
 msgstr ""
-"La manière la moins coûteuse de mixer en utilisant la pré-écoute au casque "
-"emploie un câble séparateur DJ stéréo vers mono (aussi connu sous le nom "
-"“câble en Y”) branché dans la prise casque d'un ordinateur portable ou d'un "
-"autre ordinateur. Ce câble divise la sortie stéréo d'une seule prise vers "
-"deux signaux mono séparés."
+"La manière la moins couteuse de mixer en utilisant la pré-écoute au casque "
+"est d'employer un câble séparateur DJ stéréo-vers-mono (aussi connu sous le "
+"nom “câble en Y”), branché dans la prise casque d'un ordinateur portable ou "
+"autre. Ce câble divise la sortie stéréo d'une seule prise vers deux signaux "
+"mono séparés."
 
 #: ../../chapters/example_setups.rst:103
 msgid ""
@@ -410,8 +426,8 @@ msgid ""
 msgstr ""
 "Cette configuration vous permet de démarrer le DJ sans avoir à investir dans"
 " un équipement coûteux. Cependant, comme les signaux sont en mono, vous et "
-"votre public ne pourrez pas apprécier le positionnement du son par les "
-"producteurs de musique dans l'espace (bien que de nombreux systèmes de "
+"votre public ne pourrez pas apprécier le positionnement du son dans l'espace"
+" réalisé par les producteurs de musique (bien que de nombreux systèmes de "
 "sonorisation de club soient câblés en mono de toute façon). De plus, les "
 "interfaces audio intégrées aux ordinateurs sont généralement de faible "
 "qualité et captent souvent les interférences d'autres composants de "
@@ -420,7 +436,7 @@ msgstr ""
 #: ../../chapters/example_setups.rst:110
 msgid "**Using a built-in audio interface and a stereo-to-mono splitter**"
 msgstr ""
-"**Utiliser une interface audio intégrée et un séparateur stéréo vers mono**"
+"**Utiliser une interface audio intégrée et un séparateur stéréo-vers-mono**"
 
 #: ../../chapters/example_setups.rst:114
 msgid ""
@@ -437,6 +453,8 @@ msgid ""
 "From the :guilabel:`Main` drop-down menu, select your built-in audio "
 "interface, then :guilabel:`Channel 1`"
 msgstr ""
+"Dans le menu déroulant :guilabel:`Principal`, sélectionner votre interface "
+"audio intégrée, puis :guilabel:`Canal 1`"
 
 #: ../../chapters/example_setups.rst:119
 msgid ""
@@ -444,7 +462,7 @@ msgid ""
 "interface, then :guilabel:`Channel 2`"
 msgstr ""
 "Depuis le menu déroulant :guilabel:`Casque`, sélectionner votre interface "
-"audio interne puis :guilabel:`Canaux 1-2`"
+"audio interne puis :guilabel:`Canal 2`"
 
 #: ../../chapters/example_setups.rst:123
 msgid ""
@@ -458,10 +476,10 @@ msgstr ""
 "La plupart des câbles séparateurs, particulièrement ceux vendus comme "
 "séparateurs pour casques, retranscrivent le même signal stéréo aux deux "
 "prises casque et ne fonctionneront pas pour cette configuration DJ. De même,"
-" si vous utilisez un câble séparateur stéréo vers mono générique, vous "
-"pourriez n'entendre que d'un côté de vos haut-parleurs et de vos écouteurs. "
-"Les câbles séparateurs pour DJs vous permettent d'entendre le même signal "
-"mono dans les deux côtés de votre casque et de vos enceintes."
+" si vous utilisez un câble séparateur stéréo-vers-mono générique, vous "
+"pourriez n'entendre qu'un seul côté de vos haut-parleurs et de votre casque."
+" Les câbles séparateurs pour DJs vous permettent d'entendre le même signal "
+"mono des deux côtés de vos haut-parleurs et de votre casque."
 
 #: ../../chapters/example_setups.rst:134
 msgid "Laptop and External USB Audio Interface"
@@ -481,6 +499,8 @@ msgid ""
 "From the :guilabel:`Main` drop-down menu, select the external audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
+"Dans le menu déroulant :guilabel:`Principal`, sélectionner l'interface audio"
+" externe, puis :guilabel:`Canaux 1-2`"
 
 #: ../../chapters/example_setups.rst:151 ../../chapters/example_setups.rst:219
 msgid ""
@@ -488,7 +508,7 @@ msgid ""
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
 "Depuis le menu déroulant :guilabel:`Casque`, sélectionner votre interface "
-"audio interne puis :guilabel:`Canaux 1-2`"
+"audio interne, puis :guilabel:`Canaux 1-2`"
 
 #: ../../chapters/example_setups.rst:154
 msgid "**Using an external multi-channel audio interface**"
@@ -500,7 +520,7 @@ msgid ""
 "interface, then :guilabel:`Channels 3-4`"
 msgstr ""
 "Depuis le menu déroulant :guilabel:`Casque`, sélectionner votre interface "
-"audio externe puis :guilabel:`Canaux 3-4`"
+"audio externe, puis :guilabel:`Canaux 3-4`"
 
 #: ../../chapters/example_setups.rst:167
 msgid "Laptop and MIDI or HID Controller"
@@ -525,19 +545,22 @@ msgid ""
 msgstr ""
 "Beaucoup de contrôleurs DJ incluent une interface audio intégrée *multi-"
 "canaux*. Une configuration avec ce type de contrôleur peut ressembler au "
-"schéma ci-dessous:"
+"schéma ci-dessous :"
 
 #: ../../chapters/example_setups.rst:186
 msgid ""
 "Using Mixxx together with a DJ controller and integrated audio\n"
 "interface"
 msgstr ""
+"Utiliser Mixxx avec un contrôleur DJ possédant un système audio intégré\n"
+"interface"
 
 #: ../../chapters/example_setups.rst:186
 msgid ""
 "Using Mixxx together with a DJ controller and integrated audio interface"
 msgstr ""
-"Utilisation de Mixxx avec un contrôleur DJ et une interface audio intégrée"
+"Utilisation de Mixxx avec un contrôleur DJ incluent une interface audio "
+"intégrée"
 
 #: ../../chapters/example_setups.rst:188
 msgid ""
@@ -551,6 +574,8 @@ msgid ""
 "From the :guilabel:`Main` drop-down menu, select your controller's audio "
 "interface, then :guilabel:`Channels 1-2`"
 msgstr ""
+"Depuis le menu déroulant :guilabel:`Principal`, sélectionner l'interface "
+"audio du contrôleur, puis :guilabel:`Canaux 1-2`"
 
 #: ../../chapters/example_setups.rst:194
 msgid ""
@@ -558,7 +583,7 @@ msgid ""
 "audio interface, then :guilabel:`Channels 3-4`"
 msgstr ""
 "Depuis le menu déroulant :guilabel:`Casque`, sélectionner l'interface audio "
-"du contrôleur puis :guilabel:`Canaux 3-4`"
+"du contrôleur, puis :guilabel:`Canaux 3-4`"
 
 #: ../../chapters/example_setups.rst:199
 msgid "Controllers without an integrated audio interface"
@@ -570,7 +595,7 @@ msgid ""
 "a USB audio interface as depicted in the diagram below:"
 msgstr ""
 "Les contrôleurs sans interface audio intégrée peuvent être utilisés avec une"
-" interface audio USB comme le montre le schéma ci-dessous:"
+" interface audio USB comme le montre le schéma ci-dessous :"
 
 #: ../../chapters/example_setups.rst:211
 msgid "Using Mixxx together with a DJ controller and external audio interface"
@@ -609,5 +634,4 @@ msgstr ""
 
 #: ../../chapters/example_setups.rst:248
 msgid "Go to the chapter :ref:`vinyl-control` for detailed information."
-msgstr ""
-"Allez au chapitre :ref:`vinyl-control` pour des informations détaillées."
+msgstr "Voir chapitre :ref:`vinyl-control` pour des informations détaillées."

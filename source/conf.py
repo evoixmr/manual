@@ -444,6 +444,8 @@ linkcheck_ignore = [
     # Ignore Twitter links because for some reason valid links sometimes fail
     # with "400 Bad Request"
     r"^https://twitter.com/\w+$",
+    # Ignore NI links entirely because they trip 403 in general.
+    r"^https://(?:www.)?native-instruments.com",
     # Ignore support links because we get 403 Client Errors (bad User Agent?)
     r"^https://support.native-instruments.com/",
     r"^https://support.serato.com/",
@@ -452,9 +454,13 @@ linkcheck_ignore = [
     "https://www.numark.com/images/product_downloads/MixtrackPro3-UserGuide-v1.1.pdf",
     "https://www.numark.com/product/*",
     "https://www.pioneerdj.com/en/support/software/controller/*",
+    "https://support.pioneerdj.com/hc/en-us/articles/*",
     "https://support.pioneerdj.com/hc/sections/*",
     "https://www.roland.com/global/products/dj-505/*",
     "https://web.archive.org/web/*",
+    "https://www.allen-heath.com/ahproducts/*",
+    "https://www.allen-heath.com/content/uploads/*",
+    "https://www.allen-heath.com/support/",
 ]
 
 # Avoid freezing during linkcheck

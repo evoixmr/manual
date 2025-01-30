@@ -820,6 +820,58 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 2.0.0
 
 
+.. mixxx:control:: [ChannelN],shift_cues_earlier
+                   [PreviewDeckN],shift_cues_earlier
+                   [SamplerN],shift_cues_earlier
+
+   :range: binary
+   :feedback: All :term:`cue markers <cue marker>` move left by 10ms.
+
+   .. versionadded:: 2.3.0
+
+
+.. mixxx:control:: [ChannelN],shift_cues_later
+                   [PreviewDeckN],shift_cues_later
+                   [SamplerN],shift_cues_later
+
+   :range: binary
+   :feedback: All :term:`cue markers <cue marker>` move right by 10ms.
+
+   .. versionadded:: 2.3.0
+
+
+.. mixxx:control:: [ChannelN],shift_cues_earlier_small
+                   [PreviewDeckN],shift_cues_earlier_small
+                   [SamplerN],shift_cues_earlier_small
+
+   :range: binary
+   :feedback: All :term:`cue markers <cue marker>` move left by 1ms.
+
+   .. versionadded:: 2.3.0
+
+
+.. mixxx:control:: [ChannelN],shift_cues_later_small
+                   [PreviewDeckN],shift_cues_later_small
+                   [SamplerN],shift_cues_later_small
+
+   :range: binary
+   :feedback: All :term:`cue markers <cue marker>` move right by 1ms.
+
+   .. versionadded:: 2.3.0
+
+
+.. mixxx:control:: [ChannelN],bpm_toggle_lock
+                   [PreviewDeckN],bpm_toggle_lock
+                   [SamplerN],bpm_toggle_lock
+
+   Toggle the :term:`beatgrid`/:term:`BPM` lock state.
+
+   :range: binary
+   :feedback: The lock icon of the track is activated/deactivated.
+
+   .. versionadded:: 2.4.1
+
+
 .. mixxx:control:: [ChannelN],beatsync
                    [PreviewDeckN],beatsync
                    [SamplerN],beatsync
@@ -2390,7 +2442,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],scratch2
                    [SamplerN],scratch2
 
-   Affects absolute play speed & direction whether currently playing or not when :mixxx:coref:`[ChannelN],scratch2_enable` is active. (multiplicative). Use JavaScript ``engine.scratch`` functions to manipulate in controller mappings.
+   Affects absolute play speed & direction whether currently playing or not when :mixxx:coref:`[ChannelN],scratch2_enable` is active. (multiplicative). Use the JavaScript ``engine.scratchTick`` function to manipulate in controller mappings. See the `Scratching and jog wheels <https://github.com/mixxxdj/mixxx/wiki/midi%20scripting#user-content-scratching-and-jog-wheels>`__ section for more information.
 
    :range: -3.0..3.0
    :feedback: Waveform
@@ -2402,7 +2454,7 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
                    [PreviewDeckN],scratch2_enable
                    [SamplerN],scratch2_enable
 
-   Takes over play speed & direction for :mixxx:coref:`[ChannelN],scratch2`.
+   Takes over play speed & direction for :mixxx:coref:`[ChannelN],scratch2`. Use the JavaScript ``engine.scratchEnable``/``engine.scratchDisable`` functions to manipulate in controller mappings. See the `Scratching and jog wheels <https://github.com/mixxxdj/mixxx/wiki/midi%20scripting#user-content-scratching-and-jog-wheels>`__ section for more information.
 
    :range: binary
    :feedback: Waveform
@@ -2864,10 +2916,13 @@ Then you can use your :term:`MIDI` controller to control its volume and some oth
 
 .. note:: Although the first auxiliary group is named :mixxx:cogroupref:`[Auxiliary1]`, the group for the first microphone is just called :mixxx:cogroupref:`[Microphone] <[MicrophoneN]>`, not :mixxx:cogroupref:`[Microphone1] <[MicrophoneN]>`.
 
-.. mixxx:control:: [MicrophoneN],input_configured
+.. mixxx:control:: [ChannelN],input_configured
+                   [MicrophoneN],input_configured
                    [AuxiliaryN],input_configured
 
    1 if there is input is configured for this channel, 0 if not.
+   In the case of :mixxx:cogroupref:`[ChannelN]` it corresponds to
+   Vinyl Control. A configured input is required to enable :mixxx:coref:`[ChannelN],passthrough`
 
    :range: binary, read-only
    :feedback: Configured channel in the sound preferences.
@@ -4345,13 +4400,13 @@ In the meantime, skins and controller mappings that still use them will keep wor
                    [PreviewDeckN],scratch
                    [SamplerN],scratch
 
-    Affects playback speed and direction ([differently whether currently playing or not](https://github.com/mixxxdj/mixxx/issues/5350)) (multiplicative).
+    Affects playback speed and direction (`differently whether currently playing or not <https://github.com/mixxxdj/mixxx/issues/5350>`__) (multiplicative).
 
     :range: -3.0..3.0
     :feedback: Waveform
 
     .. deprecated:: ??
-       Use the JavaScript ``engine.scratch`` functions instead.
+       Use the JavaScript ``engine.scratchTick`` function to manipulate in controller mappings. See the `Scratching and jog wheels <https://github.com/mixxxdj/mixxx/wiki/midi%20scripting#user-content-scratching-and-jog-wheels>`__ section for more information.
 
 
 .. mixxx:control:: [ChannelN],filter
@@ -4514,7 +4569,8 @@ In the meantime, skins and controller mappings that still use them will keep wor
     :range: binary
     :feedback: Waveform view
 
-    Loads the currently highlighted song into the first stopped deck
+    Performs the same action action like :mixxx:coref:`[Library],GoToItem` does when the tracks table has focus,
+    just regardless of the focus.
 
     .. deprecated:: 2.1.0
        Use :mixxx:coref:`[Library],GoToItem` instead.
